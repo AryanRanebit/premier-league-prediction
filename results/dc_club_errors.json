@@ -1,0 +1,132 @@
+{
+ "2122": {
+  "Arsenal": {
+   "exp": 6.25,
+   "act": 5
+  },
+  "Chelsea": {
+   "exp": 2.79,
+   "act": 3
+  },
+  "Liverpool": {
+   "exp": 2.19,
+   "act": 2
+  },
+  "Man City": {
+   "exp": 1.57,
+   "act": 1
+  },
+  "Man United": {
+   "exp": 4.88,
+   "act": 6
+  },
+  "Tottenham": {
+   "exp": 5.92,
+   "act": 4
+  }
+ },
+ "2223": {
+  "Arsenal": {
+   "exp": 3.48,
+   "act": 2
+  },
+  "Chelsea": {
+   "exp": 4.16,
+   "act": 12
+  },
+  "Liverpool": {
+   "exp": 3.31,
+   "act": 5
+  },
+  "Man City": {
+   "exp": 1.19,
+   "act": 1
+  },
+  "Man United": {
+   "exp": 5.5,
+   "act": 3
+  },
+  "Tottenham": {
+   "exp": 3.67,
+   "act": 8
+  }
+ },
+ "2324": {
+  "Arsenal": {
+   "exp": 3.47,
+   "act": 2
+  },
+  "Chelsea": {
+   "exp": 8.45,
+   "act": 6
+  },
+  "Liverpool": {
+   "exp": 2.35,
+   "act": 3
+  },
+  "Man City": {
+   "exp": 1.29,
+   "act": 1
+  },
+  "Man United": {
+   "exp": 7.46,
+   "act": 8
+  },
+  "Tottenham": {
+   "exp": 3.54,
+   "act": 5
+  }
+ },
+ "2425": {
+  "Arsenal": {
+   "exp": 3.21,
+   "act": 2
+  },
+  "Chelsea": {
+   "exp": 5.17,
+   "act": 4
+  },
+  "Liverpool": {
+   "exp": 1.93,
+   "act": 1
+  },
+  "Man City": {
+   "exp": 1.42,
+   "act": 3
+  },
+  "Man United": {
+   "exp": 8.89,
+   "act": 15
+  },
+  "Tottenham": {
+   "exp": 5.55,
+   "act": 17
+  }
+ },
+ "2526": {
+  "Arsenal": {
+   "exp": 1.8,
+   "act": 1
+  },
+  "Chelsea": {
+   "exp": 5.61,
+   "act": 10
+  },
+  "Liverpool": {
+   "exp": 2.78,
+   "act": 5
+  },
+  "Man City": {
+   "exp": 1.92,
+   "act": 2
+  },
+  "Man United": {
+   "exp": 7.72,
+   "act": 3
+  },
+  "Tottenham": {
+   "exp": 7.01,
+   "act": 17
+  }
+ }
+}
