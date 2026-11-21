@@ -1,0 +1,24 @@
+{
+ "season": "2526",
+ "variant": "ctx",
+ "cutoff": "2026-01-01",
+ "matches_in_cut": 190,
+ "n_eval": 190,
+ "best_val_epochs": [
+  4,
+  6,
+  8,
+  7,
+  5
+ ],
+ "arm_A_epoch250": {
+  "mae_big6": 2.197458333333333,
+  "mae_all": 2.7415,
+  "score_nll": 3.6098677500874725
+ },
+ "arm_B_bestckpt80": {
+  "mae_big6": 1.9515,
+  "mae_all": 1.99745,
+  "score_nll": 2.910181952617296
+ }
+}

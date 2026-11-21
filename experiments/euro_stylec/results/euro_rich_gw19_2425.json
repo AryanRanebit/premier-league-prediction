@@ -1,0 +1,19 @@
+{
+ "season": "2425",
+ "mode": "rich",
+ "cutoff": "2025-01-01",
+ "arm": "B_bestckpt80_only",
+ "highrec_coverage": null,
+ "best_val_epochs": [
+  6,
+  11,
+  8,
+  6,
+  9
+ ],
+ "arm_B_bestckpt80": {
+  "mae_big6": 2.1783333333333332,
+  "mae_all": 1.917125,
+  "score_nll": 3.0057535623124485
+ }
+}
