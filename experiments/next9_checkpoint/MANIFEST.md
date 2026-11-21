@@ -50,7 +50,11 @@ When all 20 clubs have 19 played:
    averaged, per model.
 Report all three per model; no single headline "accuracy".
 
-Regeneration: `exp_next9_2627.py` reproduces this file exactly given the
-pinned data (football-data CSVs, the two vendor-derived inputs, and the
-frozen DC snapshot); a valid regeneration must reproduce the stored matrices
-bit-for-bit.
+Regeneration: `exp_next9_2627.py` reproduces this file bit-for-bit given the
+pinned inputs: the football-data CSVs (auto-fetched into `data/` by the
+common harness), `experiments/xg/data/pl_xg_matched.csv` (not redistributed;
+regenerate with the network retrieval scripts `experiments/xg/download_xg.py`
+then `match_xg.py` per `experiments/README.md`), and the frozen DC snapshot
+`results/forecast_full_v3.json`. Without the xG CSV the script exits with the
+retrieval instructions before writing anything. Verified 2026-11-21: a full
+repo-layout regeneration reproduced the committed JSON exactly.
