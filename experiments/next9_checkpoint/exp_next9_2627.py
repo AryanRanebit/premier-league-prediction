@@ -137,17 +137,35 @@ for i, (d, h, a) in enumerate(FIX):
         ph, pd, pa, eh, ea = stats_1x2(p)
         flat = [(float(p[x, y]), x, y) for x in range(p.shape[0]) for y in range(p.shape[1])]
         flat.sort(reverse=True)
-        rec["pred"][k] = {"p_home": round(ph, 4), "p_draw": round(pd, 4), "p_away": round(pa, 4),
-                          "exp_goals_home": round(eh, 3), "exp_goals_away": round(ea, 3),
-                          "top3": [[x, y, round(pr, 4)] for pr, x, y in flat[:3]],
+        rec["pred"][k] = {"p_home": ph, "p_draw": pd, "p_away": pa,
+                          "exp_goals_home": eh, "exp_goals_away": ea,
+                          "top3": [[x, y, pr] for pr, x, y in flat[:3]],
                           "grid": f"{p.shape[0]}x{p.shape[1]}",
-                          "pmf": [[round(float(v), 5) for v in row] for row in p.tolist()]}
+                          "pmf": [[float(v) for v in row] for row in p.tolist()]}
+        if k == "dc":
+            # common 7x7 event space for cross-model scoreline NLL: bin 6 = 6+
+            p7 = np.zeros((7, 7))
+            for x in range(11):
+                for y in range(11):
+                    p7[min(x, 6), min(y, 6)] += p[x, y]
+            rec["pred"]["dc_binned7x7"] = {"grid": "7x7 (6 = 6+), aggregated from dc 11x11",
+                                            "pmf": [[float(v) for v in row] for row in p7.tolist()]}
         exp_pts[k][h] += 3 * ph + pd
         exp_pts[k][a] += 3 * pa + pd
     out["fixtures"].append(rec)
 
-out["expected_points_next9"] = {k: {t: round(exp_pts[k][t], 2) for t in sorted(exp_pts[k])} for k in grids}
-json.dump(out, open(os.path.join(HERE, "next9_2627_predictions.json"), "w"), indent=1)
+out["expected_points_next9"] = {k: {t: exp_pts[k][t] for t in sorted(exp_pts[k])} for k in grids}
+out["protocol_version"] = "v2"
+out["protocol_changes_v2"] = [
+    "full-precision probabilities (v1 rounded to 5 decimals, which produced exact zeros in tiny DC cells; v1 preserved alongside, superseded for scoring)",
+    "dc_binned7x7 added per fixture: DC 11x11 aggregated onto the common 7x7 event space (bin 6 = 6+ goals) so scoreline NLL compares all three models on identical events",
+    "all model cells are strictly positive (DC: exp-link Poisson; NN: softmax); if a future regeneration ever yielded a zero cell, scoring clips at eps=1e-9 before log, uniformly for all models (predeclared, not post-hoc)",
+    "input pinning: SHA256 of every input file in INPUT_HASHES.txt; live football-data CSVs update in-season, so reproduction uses the pinned private snapshot",
+    "postponement rule: score the fixed 90 frozen fixtures as they complete and report coverage; no substitution",
+]
+out["fixture_source"] = "FotMob announced schedule, https://www.fotmob.com/api/data/leagues?id=47&ccode3=IND&season=2026/2027 (fetched 2026-11-21)"
+out["results_source"] = "football-data.co.uk E0 CSVs, https://www.football-data.co.uk/mmz4281/<season>/E0.csv (snapshot hashes in INPUT_HASHES.txt)"
+json.dump(out, open(os.path.join(HERE, "next9_2627_predictions_v2.json"), "w"), indent=1)
 
 clubs = sorted(byclub)
 print(f"fixtures {len(out['fixtures'])} | dc lam sample {lams['dc'][0]}")
