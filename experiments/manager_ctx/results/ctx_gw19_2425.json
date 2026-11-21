@@ -1,0 +1,24 @@
+{
+ "season": "2425",
+ "variant": "ctx",
+ "cutoff": "2025-01-01",
+ "matches_in_cut": 189,
+ "n_eval": 191,
+ "best_val_epochs": [
+  4,
+  4,
+  5,
+  3,
+  4
+ ],
+ "arm_A_epoch250": {
+  "mae_big6": 1.7194166666666664,
+  "mae_all": 1.70335,
+  "score_nll": 3.546779295190805
+ },
+ "arm_B_bestckpt80": {
+  "mae_big6": 1.93825,
+  "mae_all": 1.7115500000000001,
+  "score_nll": 2.9700188229030835
+ }
+}

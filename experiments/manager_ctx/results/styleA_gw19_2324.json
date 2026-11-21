@@ -1,0 +1,23 @@
+{
+ "season": "2324",
+ "mode": "styleA",
+ "cutoff": "2023-12-28",
+ "possession_coverage": "17/20",
+ "best_val_epochs": [
+  11,
+  4,
+  8,
+  10,
+  7
+ ],
+ "arm_A_epoch250": {
+  "mae_big6": 1.7856666666666665,
+  "mae_all": 2.086575,
+  "score_nll": 3.688706950308633
+ },
+ "arm_B_bestckpt80": {
+  "mae_big6": 1.7985833333333332,
+  "mae_all": 1.8805,
+  "score_nll": 3.2504510124054975
+ }
+}

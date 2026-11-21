@@ -1,0 +1,23 @@
+{
+ "season": "2122",
+ "mode": "styleAB",
+ "cutoff": "2021-12-27",
+ "possession_coverage": "17/20",
+ "best_val_epochs": [
+  6,
+  6,
+  7,
+  8,
+  7
+ ],
+ "arm_A_epoch250": {
+  "mae_big6": 0.645625,
+  "mae_all": 1.8398249999999998,
+  "score_nll": 3.592623194282389
+ },
+ "arm_B_bestckpt80": {
+  "mae_big6": 0.7754999999999997,
+  "mae_all": 1.842375,
+  "score_nll": 3.00587744292375
+ }
+}

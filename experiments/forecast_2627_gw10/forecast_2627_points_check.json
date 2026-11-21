@@ -1,0 +1,66 @@
+{
+ "model_rank_mean_pts": [
+  80.1,
+  74.8,
+  70.6,
+  66.8,
+  63.7,
+  60.9,
+  58.3,
+  55.9,
+  53.7,
+  51.8,
+  49.9,
+  48.2,
+  46.5,
+  44.9,
+  43.1,
+  41.2,
+  39.2,
+  36.8,
+  33.9,
+  29.4
+ ],
+ "model_champion_pts": {
+  "mean": 80.1,
+  "median": 80.0,
+  "p10": 74.0,
+  "p90": 86.0
+ },
+ "model_total_pts": 1050.0,
+ "model_draws_pct": 0.238,
+ "model_goals_per_game": 2.87,
+ "actual_2526": {
+  "rank_pts": [
+   85,
+   78,
+   71,
+   65,
+   60,
+   57,
+   54,
+   53,
+   53,
+   52,
+   52,
+   49,
+   49,
+   47,
+   45,
+   44,
+   41,
+   39,
+   22,
+   20
+  ],
+  "total_pts": 1036,
+  "draws_pct": 0.274,
+  "goals_per_game": 2.75,
+  "champion": "Arsenal",
+  "relegated": [
+   "West Ham",
+   "Burnley",
+   "Wolves"
+  ]
+ }
+}

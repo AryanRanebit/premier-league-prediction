@@ -1,0 +1,19 @@
+{
+ "season": "2122",
+ "mode": "euroC",
+ "cutoff": "2021-12-27",
+ "arm": "B_bestckpt80_only",
+ "highrec_coverage": "17/20",
+ "best_val_epochs": [
+  11,
+  6,
+  8,
+  9,
+  7
+ ],
+ "arm_B_bestckpt80": {
+  "mae_big6": 0.9156249999999999,
+  "mae_all": 1.703275,
+  "score_nll": 2.960239739468485
+ }
+}

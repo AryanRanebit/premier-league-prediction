@@ -1,0 +1,24 @@
+{
+ "season": "2122",
+ "variant": "ctx",
+ "cutoff": "2021-12-27",
+ "matches_in_cut": 176,
+ "n_eval": 204,
+ "best_val_epochs": [
+  9,
+  7,
+  6,
+  7,
+  5
+ ],
+ "arm_A_epoch250": {
+  "mae_big6": 0.44395833333333323,
+  "mae_all": 1.56915,
+  "score_nll": 3.786664070124148
+ },
+ "arm_B_bestckpt80": {
+  "mae_big6": 0.6752083333333333,
+  "mae_all": 1.7454999999999998,
+  "score_nll": 3.0217652934360544
+ }
+}

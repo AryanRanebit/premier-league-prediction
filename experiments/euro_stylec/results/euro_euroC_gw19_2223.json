@@ -1,0 +1,19 @@
+{
+ "season": "2223",
+ "mode": "euroC",
+ "cutoff": "2023-01-05",
+ "arm": "B_bestckpt80_only",
+ "highrec_coverage": "17/20",
+ "best_val_epochs": [
+  5,
+  4,
+  6,
+  7,
+  7
+ ],
+ "arm_B_bestckpt80": {
+  "mae_big6": 0.8551250000000001,
+  "mae_all": 1.6948750000000004,
+  "score_nll": 2.990150749472714
+ }
+}

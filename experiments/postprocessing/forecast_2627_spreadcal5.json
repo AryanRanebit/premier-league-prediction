@@ -1,0 +1,361 @@
+{
+ "method": "strength stretch (one global G on goal supremacy, model's own base strengths) solved to the 5-season (2021-22..2025-26) mean within-season points spread 17.97, then draw-cell factor re-solved to the 5-season mean draw rate 23.9%; spread solve targets mean within-simulation season spread (NOT per-rank-mean std); post-processing, nets unchanged, no per-club edits, 4000 sims rng 42; reference fit to historical seasons, not an out-of-sample test",
+ "G": 0.474853515625,
+ "lambda": 1.1576544854441786,
+ "targets": {
+  "spread_within_season_mean": 17.97,
+  "draw_rate": 0.23894736842105263
+ },
+ "reference_by_season": {
+  "2122": {
+   "spread": 18.86,
+   "draws": 88
+  },
+  "2223": {
+   "spread": 17.73,
+   "draws": 87
+  },
+  "2324": {
+   "spread": 19.72,
+   "draws": 82
+  },
+  "2425": {
+   "spread": 18.11,
+   "draws": 93
+  },
+  "2526": {
+   "spread": 15.43,
+   "draws": 104
+  }
+ },
+ "before": {
+  "rank_mean_pts": [
+   80.1,
+   74.8,
+   70.6,
+   66.8,
+   63.7,
+   60.9,
+   58.3,
+   55.9,
+   53.7,
+   51.8,
+   49.9,
+   48.2,
+   46.5,
+   44.9,
+   43.1,
+   41.2,
+   39.2,
+   36.8,
+   33.9,
+   29.4
+  ],
+  "champion_pts_mean": 80.1,
+  "total_pts": 1050.0,
+  "within_spread": 13.8,
+  "rank_spread": 13.5,
+  "club": {
+   "Arsenal": {
+    "exp_pos": 2.28,
+    "exp_pts": 75.3
+   },
+   "Aston Villa": {
+    "exp_pos": 13.98,
+    "exp_pts": 44.6
+   },
+   "Bournemouth": {
+    "exp_pos": 5.36,
+    "exp_pts": 63.4
+   },
+   "Brentford": {
+    "exp_pos": 12.55,
+    "exp_pts": 47.1
+   },
+   "Brighton": {
+    "exp_pos": 2.3,
+    "exp_pts": 74.4
+   },
+   "Chelsea": {
+    "exp_pos": 5.43,
+    "exp_pts": 63.3
+   },
+   "Coventry": {
+    "exp_pos": 17.04,
+    "exp_pts": 37.8
+   },
+   "Crystal Palace": {
+    "exp_pos": 18.77,
+    "exp_pts": 32.6
+   },
+   "Everton": {
+    "exp_pos": 9.78,
+    "exp_pts": 53.0
+   },
+   "Fulham": {
+    "exp_pos": 11.6,
+    "exp_pts": 49.1
+   },
+   "Hull": {
+    "exp_pos": 16.27,
+    "exp_pts": 39.5
+   },
+   "Ipswich": {
+    "exp_pos": 15.03,
+    "exp_pts": 42.5
+   },
+   "Leeds": {
+    "exp_pos": 10.96,
+    "exp_pts": 50.4
+   },
+   "Liverpool": {
+    "exp_pos": 6.26,
+    "exp_pts": 61.2
+   },
+   "Man City": {
+    "exp_pos": 2.93,
+    "exp_pts": 71.9
+   },
+   "Man United": {
+    "exp_pos": 10.31,
+    "exp_pts": 51.7
+   },
+   "Newcastle": {
+    "exp_pos": 14.32,
+    "exp_pts": 43.9
+   },
+   "Nott'm Forest": {
+    "exp_pos": 11.07,
+    "exp_pts": 50.1
+   },
+   "Sunderland": {
+    "exp_pos": 16.35,
+    "exp_pts": 39.6
+   },
+   "Tottenham": {
+    "exp_pos": 7.41,
+    "exp_pts": 58.0
+   }
+  }
+ },
+ "draw_only": {
+  "rank_mean_pts": [
+   80.0,
+   74.7,
+   70.6,
+   66.8,
+   63.6,
+   60.8,
+   58.3,
+   55.9,
+   53.7,
+   51.8,
+   50.0,
+   48.2,
+   46.5,
+   44.8,
+   43.0,
+   41.1,
+   39.1,
+   36.9,
+   34.0,
+   29.4
+  ],
+  "champion_pts_mean": 80.0,
+  "total_pts": 1049.0,
+  "within_spread": 13.7,
+  "rank_spread": 13.5,
+  "club": {
+   "Arsenal": {
+    "exp_pos": 2.25,
+    "exp_pts": 75.3
+   },
+   "Aston Villa": {
+    "exp_pos": 13.98,
+    "exp_pts": 44.7
+   },
+   "Bournemouth": {
+    "exp_pos": 5.34,
+    "exp_pts": 63.4
+   },
+   "Brentford": {
+    "exp_pos": 12.56,
+    "exp_pts": 47.1
+   },
+   "Brighton": {
+    "exp_pos": 2.29,
+    "exp_pts": 74.4
+   },
+   "Chelsea": {
+    "exp_pos": 5.46,
+    "exp_pts": 63.2
+   },
+   "Coventry": {
+    "exp_pos": 17.08,
+    "exp_pts": 37.8
+   },
+   "Crystal Palace": {
+    "exp_pos": 18.81,
+    "exp_pts": 32.6
+   },
+   "Everton": {
+    "exp_pos": 9.82,
+    "exp_pts": 53.0
+   },
+   "Fulham": {
+    "exp_pos": 11.57,
+    "exp_pts": 49.1
+   },
+   "Hull": {
+    "exp_pos": 16.24,
+    "exp_pts": 39.5
+   },
+   "Ipswich": {
+    "exp_pos": 15.04,
+    "exp_pts": 42.5
+   },
+   "Leeds": {
+    "exp_pos": 10.98,
+    "exp_pts": 50.4
+   },
+   "Liverpool": {
+    "exp_pos": 6.24,
+    "exp_pts": 61.2
+   },
+   "Man City": {
+    "exp_pos": 2.92,
+    "exp_pts": 71.9
+   },
+   "Man United": {
+    "exp_pos": 10.29,
+    "exp_pts": 51.6
+   },
+   "Newcastle": {
+    "exp_pos": 14.32,
+    "exp_pts": 43.9
+   },
+   "Nott'm Forest": {
+    "exp_pos": 11.09,
+    "exp_pts": 50.1
+   },
+   "Sunderland": {
+    "exp_pos": 16.29,
+    "exp_pts": 39.6
+   },
+   "Tottenham": {
+    "exp_pos": 7.43,
+    "exp_pts": 58.0
+   }
+  }
+ },
+ "combined": {
+  "rank_mean_pts": [
+   88.4,
+   82.9,
+   77.9,
+   71.9,
+   67.6,
+   63.5,
+   59.4,
+   55.8,
+   52.8,
+   50.3,
+   48.1,
+   46.0,
+   43.9,
+   41.8,
+   39.7,
+   37.5,
+   35.2,
+   32.6,
+   29.5,
+   24.6
+  ],
+  "champion_pts_mean": 88.4,
+  "total_pts": 1049.0,
+  "within_spread": 18.0,
+  "rank_spread": 17.7,
+  "club": {
+   "Arsenal": {
+    "exp_pos": 1.82,
+    "exp_pts": 84.9
+   },
+   "Aston Villa": {
+    "exp_pos": 13.95,
+    "exp_pts": 41.9
+   },
+   "Bournemouth": {
+    "exp_pos": 4.99,
+    "exp_pts": 68.0
+   },
+   "Brentford": {
+    "exp_pos": 12.41,
+    "exp_pts": 45.1
+   },
+   "Brighton": {
+    "exp_pos": 2.0,
+    "exp_pts": 83.2
+   },
+   "Chelsea": {
+    "exp_pos": 4.98,
+    "exp_pts": 68.2
+   },
+   "Coventry": {
+    "exp_pos": 17.72,
+    "exp_pts": 32.4
+   },
+   "Crystal Palace": {
+    "exp_pos": 19.3,
+    "exp_pts": 26.5
+   },
+   "Everton": {
+    "exp_pos": 9.47,
+    "exp_pts": 52.7
+   },
+   "Fulham": {
+    "exp_pos": 11.92,
+    "exp_pts": 46.3
+   },
+   "Hull": {
+    "exp_pos": 16.91,
+    "exp_pts": 34.5
+   },
+   "Ipswich": {
+    "exp_pos": 15.42,
+    "exp_pts": 38.5
+   },
+   "Leeds": {
+    "exp_pos": 10.73,
+    "exp_pts": 49.3
+   },
+   "Liverpool": {
+    "exp_pos": 5.7,
+    "exp_pts": 65.2
+   },
+   "Man City": {
+    "exp_pos": 2.63,
+    "exp_pts": 79.9
+   },
+   "Man United": {
+    "exp_pos": 10.08,
+    "exp_pts": 50.8
+   },
+   "Newcastle": {
+    "exp_pos": 14.95,
+    "exp_pts": 39.5
+   },
+   "Nott'm Forest": {
+    "exp_pos": 11.03,
+    "exp_pts": 48.4
+   },
+   "Sunderland": {
+    "exp_pos": 16.65,
+    "exp_pts": 35.3
+   },
+   "Tottenham": {
+    "exp_pos": 7.36,
+    "exp_pts": 58.8
+   }
+  }
+ }
+}

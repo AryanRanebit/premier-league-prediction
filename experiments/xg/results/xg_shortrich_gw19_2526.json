@@ -1,0 +1,20 @@
+{
+ "season": "2526",
+ "mode": "shortrich",
+ "cutoff": "2026-01-01",
+ "arm": "B_bestckpt80_only",
+ "train_from": "2020-08-01",
+ "train_n": 2090,
+ "best_val_epochs": [
+  7,
+  8,
+  9,
+  9,
+  8
+ ],
+ "arm_B_bestckpt80": {
+  "mae_big6": 1.85825,
+  "mae_all": 2.11455,
+  "score_nll": 2.9356285245470812
+ }
+}

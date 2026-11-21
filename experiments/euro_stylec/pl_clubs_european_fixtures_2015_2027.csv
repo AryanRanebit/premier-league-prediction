@@ -1,0 +1,939 @@
+season,competition,date,home,away,stage,pl_club,source,status
+2015-16,UEL,2015-07-02,West Ham United,Lusitanos,,West Ham,espn_core_api,played
+2015-16,UEL,2015-07-09,Lusitanos,West Ham United,,West Ham,espn_core_api,played
+2015-16,UEL,2015-07-16,West Ham United,Birkirkara,,West Ham,espn_core_api,played
+2015-16,UEL,2015-07-23,Birkirkara,West Ham United,,West Ham,espn_core_api,played
+2015-16,UEL,2015-07-30,West Ham United,FK Astra Giurgiu,,West Ham,espn_core_api,played
+2015-16,UEL,2015-07-30,Southampton,Vitesse,,Southampton,espn_core_api,played
+2015-16,UEL,2015-08-06,Vitesse,Southampton,,Southampton,espn_core_api,played
+2015-16,UEL,2015-08-06,FK Astra Giurgiu,West Ham United,,West Ham,espn_core_api,played
+2015-16,UCL,2015-08-18,Manchester United,Club Brugge,,Man United,espn_core_api,played
+2015-16,UEL,2015-08-20,Southampton,FC Midtjylland,,Southampton,espn_core_api,played
+2015-16,UCL,2015-08-26,Club Brugge,Manchester United,,Man United,espn_core_api,played
+2015-16,UEL,2015-08-27,FC Midtjylland,Southampton,,Southampton,espn_core_api,played
+2015-16,UCL,2015-09-15,Manchester City,Juventus,,Man City,espn_core_api,played
+2015-16,UCL,2015-09-15,PSV Eindhoven,Manchester United,,Man United,espn_core_api,played
+2015-16,UCL,2015-09-16,Chelsea,Maccabi Tel-Aviv,,Chelsea,espn_core_api,played
+2015-16,UCL,2015-09-16,Dinamo Zagreb,Arsenal,,Arsenal,espn_core_api,played
+2015-16,UEL,2015-09-17,Bordeaux,Liverpool,,Liverpool,espn_core_api,played
+2015-16,UEL,2015-09-17,Tottenham Hotspur,FK Qarabag,,Tottenham,espn_core_api,played
+2015-16,UCL,2015-09-29,Arsenal,Olympiacos,,Arsenal,espn_core_api,played
+2015-16,UCL,2015-09-29,FC Porto,Chelsea,,Chelsea,espn_core_api,played
+2015-16,UCL,2015-09-30,Borussia Mönchengladbach,Manchester City,,Man City,espn_core_api,played
+2015-16,UCL,2015-09-30,Manchester United,VfL Wolfsburg,,Man United,espn_core_api,played
+2015-16,UEL,2015-10-01,AS Monaco,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2015-16,UEL,2015-10-01,Liverpool,FC Sion,,Liverpool,espn_core_api,played
+2015-16,UCL,2015-10-20,Arsenal,Bayern Munich,,Arsenal,espn_core_api,played
+2015-16,UCL,2015-10-20,Dynamo Kyiv,Chelsea,,Chelsea,espn_core_api,played
+2015-16,UCL,2015-10-21,CSKA Moscow,Manchester United,,Man United,espn_core_api,played
+2015-16,UCL,2015-10-21,Manchester City,Sevilla,,Man City,espn_core_api,played
+2015-16,UEL,2015-10-22,Liverpool,Rubin Kazan,,Liverpool,espn_core_api,played
+2015-16,UEL,2015-10-22,Anderlecht,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2015-16,UCL,2015-11-03,Manchester United,CSKA Moscow,,Man United,espn_core_api,played
+2015-16,UCL,2015-11-03,Sevilla,Manchester City,,Man City,espn_core_api,played
+2015-16,UCL,2015-11-04,Chelsea,Dynamo Kyiv,,Chelsea,espn_core_api,played
+2015-16,UCL,2015-11-04,Bayern Munich,Arsenal,,Arsenal,espn_core_api,played
+2015-16,UEL,2015-11-05,Tottenham Hotspur,Anderlecht,,Tottenham,espn_core_api,played
+2015-16,UEL,2015-11-05,Rubin Kazan,Liverpool,,Liverpool,espn_core_api,played
+2015-16,UCL,2015-11-24,Maccabi Tel-Aviv,Chelsea,,Chelsea,espn_core_api,played
+2015-16,UCL,2015-11-24,Arsenal,Dinamo Zagreb,,Arsenal,espn_core_api,played
+2015-16,UCL,2015-11-25,Manchester United,PSV Eindhoven,,Man United,espn_core_api,played
+2015-16,UCL,2015-11-25,Juventus,Manchester City,,Man City,espn_core_api,played
+2015-16,UEL,2015-11-26,FK Qarabag,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2015-16,UEL,2015-11-26,Liverpool,Bordeaux,,Liverpool,espn_core_api,played
+2015-16,UCL,2015-12-08,VfL Wolfsburg,Manchester United,,Man United,espn_core_api,played
+2015-16,UCL,2015-12-08,Manchester City,Borussia Mönchengladbach,,Man City,espn_core_api,played
+2015-16,UCL,2015-12-09,Chelsea,FC Porto,,Chelsea,espn_core_api,played
+2015-16,UCL,2015-12-09,Olympiacos,Arsenal,,Arsenal,espn_core_api,played
+2015-16,UEL,2015-12-10,Tottenham Hotspur,AS Monaco,,Tottenham,espn_core_api,played
+2015-16,UEL,2015-12-10,FC Sion,Liverpool,,Liverpool,espn_core_api,played
+2015-16,UCL,2016-02-16,Paris Saint-Germain,Chelsea,,Chelsea,espn_core_api,played
+2015-16,UEL,2016-02-18,FC Augsburg,Liverpool,,Liverpool,espn_core_api,played
+2015-16,UEL,2016-02-18,FC Midtjylland,Manchester United,,Man United,espn_core_api,played
+2015-16,UEL,2016-02-18,Fiorentina,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2015-16,UCL,2016-02-23,Arsenal,Barcelona,,Arsenal,espn_core_api,played
+2015-16,UCL,2016-02-24,Dynamo Kyiv,Manchester City,,Man City,espn_core_api,played
+2015-16,UEL,2016-02-25,Liverpool,FC Augsburg,,Liverpool,espn_core_api,played
+2015-16,UEL,2016-02-25,Tottenham Hotspur,Fiorentina,,Tottenham,espn_core_api,played
+2015-16,UEL,2016-02-25,Manchester United,FC Midtjylland,,Man United,espn_core_api,played
+2015-16,UCL,2016-03-09,Chelsea,Paris Saint-Germain,,Chelsea,espn_core_api,played
+2015-16,UEL,2016-03-10,Liverpool,Manchester United,,Liverpool/Man United,espn_core_api,played
+2015-16,UEL,2016-03-10,Borussia Dortmund,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2015-16,UCL,2016-03-15,Manchester City,Dynamo Kyiv,,Man City,espn_core_api,played
+2015-16,UCL,2016-03-16,Barcelona,Arsenal,,Arsenal,espn_core_api,played
+2015-16,UEL,2016-03-17,Manchester United,Liverpool,,Liverpool/Man United,espn_core_api,played
+2015-16,UEL,2016-03-17,Tottenham Hotspur,Borussia Dortmund,,Tottenham,espn_core_api,played
+2015-16,UCL,2016-04-06,Paris Saint-Germain,Manchester City,,Man City,espn_core_api,played
+2015-16,UEL,2016-04-07,Borussia Dortmund,Liverpool,,Liverpool,espn_core_api,played
+2015-16,UCL,2016-04-12,Manchester City,Paris Saint-Germain,,Man City,espn_core_api,played
+2015-16,UEL,2016-04-14,Liverpool,Borussia Dortmund,,Liverpool,espn_core_api,played
+2015-16,UCL,2016-04-26,Manchester City,Real Madrid,,Man City,espn_core_api,played
+2015-16,UEL,2016-04-28,Villarreal,Liverpool,,Liverpool,espn_core_api,played
+2015-16,UCL,2016-05-04,Real Madrid,Manchester City,,Man City,espn_core_api,played
+2015-16,UEL,2016-05-05,Liverpool,Villarreal,,Liverpool,espn_core_api,played
+2015-16,UEL,2016-05-18,Liverpool,Sevilla,,Liverpool,espn_core_api,played
+2016-17,UEL,2016-07-28,NK Domzale,West Ham United,,West Ham,espn_core_api,played
+2016-17,UEL,2016-08-04,West Ham United,NK Domzale,,West Ham,espn_core_api,played
+2016-17,UCL,2016-08-16,FCSB,Manchester City,,Man City,espn_core_api,played
+2016-17,UEL,2016-08-18,FK Astra Giurgiu,West Ham United,,West Ham,espn_core_api,played
+2016-17,UCL,2016-08-24,Manchester City,FCSB,,Man City,espn_core_api,played
+2016-17,UEL,2016-08-25,West Ham United,FK Astra Giurgiu,,West Ham,espn_core_api,played
+2016-17,UCL,2016-09-13,Paris Saint-Germain,Arsenal,,Arsenal,espn_core_api,played
+2016-17,UCL,2016-09-14,Manchester City,Borussia Mönchengladbach,,Man City,espn_core_api,played
+2016-17,UCL,2016-09-14,Tottenham Hotspur,AS Monaco,,Tottenham,espn_core_api,played
+2016-17,UCL,2016-09-14,Club Brugge,Leicester City,,Leicester,espn_core_api,played
+2016-17,UEL,2016-09-15,Southampton,Sparta Prague,,Southampton,espn_core_api,played
+2016-17,UEL,2016-09-15,Feyenoord Rotterdam,Manchester United,,Man United,espn_core_api,played
+2016-17,UCL,2016-09-27,CSKA Moscow,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2016-17,UCL,2016-09-27,Leicester City,FC Porto,,Leicester,espn_core_api,played
+2016-17,UCL,2016-09-28,Celtic,Manchester City,,Man City,espn_core_api,played
+2016-17,UCL,2016-09-28,Arsenal,FC Basel,,Arsenal,espn_core_api,played
+2016-17,UEL,2016-09-29,Hapoel Be'er,Southampton,,Southampton,espn_core_api,played
+2016-17,UEL,2016-09-29,Manchester United,FC Zorya Luhansk,,Man United,espn_core_api,played
+2016-17,UCL,2016-10-18,Bayer Leverkusen,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2016-17,UCL,2016-10-18,Leicester City,F.C. København,,Leicester,espn_core_api,played
+2016-17,UCL,2016-10-19,Barcelona,Manchester City,,Man City,espn_core_api,played
+2016-17,UCL,2016-10-19,Arsenal,Ludogorets Razgrad,,Arsenal,espn_core_api,played
+2016-17,UEL,2016-10-20,Manchester United,Fenerbahce,,Man United,espn_core_api,played
+2016-17,UEL,2016-10-20,Internazionale,Southampton,,Southampton,espn_core_api,played
+2016-17,UCL,2016-11-01,Manchester City,Barcelona,,Man City,espn_core_api,played
+2016-17,UCL,2016-11-01,Ludogorets Razgrad,Arsenal,,Arsenal,espn_core_api,played
+2016-17,UCL,2016-11-02,F.C. København,Leicester City,,Leicester,espn_core_api,played
+2016-17,UCL,2016-11-02,Tottenham Hotspur,Bayer Leverkusen,,Tottenham,espn_core_api,played
+2016-17,UEL,2016-11-03,Southampton,Internazionale,,Southampton,espn_core_api,played
+2016-17,UEL,2016-11-03,Fenerbahce,Manchester United,,Man United,espn_core_api,played
+2016-17,UCL,2016-11-22,AS Monaco,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2016-17,UCL,2016-11-22,Leicester City,Club Brugge,,Leicester,espn_core_api,played
+2016-17,UCL,2016-11-23,Borussia Mönchengladbach,Manchester City,,Man City,espn_core_api,played
+2016-17,UCL,2016-11-23,Arsenal,Paris Saint-Germain,,Arsenal,espn_core_api,played
+2016-17,UEL,2016-11-24,Sparta Prague,Southampton,,Southampton,espn_core_api,played
+2016-17,UEL,2016-11-24,Manchester United,Feyenoord Rotterdam,,Man United,espn_core_api,played
+2016-17,UCL,2016-12-06,FC Basel,Arsenal,,Arsenal,espn_core_api,played
+2016-17,UCL,2016-12-06,Manchester City,Celtic,,Man City,espn_core_api,played
+2016-17,UCL,2016-12-07,FC Porto,Leicester City,,Leicester,espn_core_api,played
+2016-17,UCL,2016-12-07,Tottenham Hotspur,CSKA Moscow,,Tottenham,espn_core_api,played
+2016-17,UEL,2016-12-08,FC Zorya Luhansk,Manchester United,,Man United,espn_core_api,played
+2016-17,UEL,2016-12-08,Southampton,Hapoel Be'er,,Southampton,espn_core_api,played
+2016-17,UCL,2017-02-15,Bayern Munich,Arsenal,,Arsenal,espn_core_api,played
+2016-17,UEL,2017-02-16,KAA Gent,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2016-17,UEL,2017-02-16,Manchester United,Saint-Étienne,,Man United,espn_core_api,played
+2016-17,UCL,2017-02-21,Manchester City,AS Monaco,,Man City,espn_core_api,played
+2016-17,UCL,2017-02-22,Sevilla,Leicester City,,Leicester,espn_core_api,played
+2016-17,UEL,2017-02-22,Saint-Étienne,Manchester United,,Man United,espn_core_api,played
+2016-17,UEL,2017-02-23,Tottenham Hotspur,KAA Gent,,Tottenham,espn_core_api,played
+2016-17,UCL,2017-03-07,Arsenal,Bayern Munich,,Arsenal,espn_core_api,played
+2016-17,UEL,2017-03-09,Rostov,Manchester United,,Man United,espn_core_api,played
+2016-17,UCL,2017-03-14,Leicester City,Sevilla,,Leicester,espn_core_api,played
+2016-17,UCL,2017-03-15,AS Monaco,Manchester City,,Man City,espn_core_api,played
+2016-17,UEL,2017-03-16,Manchester United,Rostov,,Man United,espn_core_api,played
+2016-17,UCL,2017-04-12,Atlético Madrid,Leicester City,,Leicester,espn_core_api,played
+2016-17,UEL,2017-04-13,Anderlecht,Manchester United,,Man United,espn_core_api,played
+2016-17,UCL,2017-04-18,Leicester City,Atlético Madrid,,Leicester,espn_core_api,played
+2016-17,UEL,2017-04-20,Manchester United,Anderlecht,,Man United,espn_core_api,played
+2016-17,UEL,2017-05-04,Celta Vigo,Manchester United,,Man United,espn_core_api,played
+2016-17,UEL,2017-05-11,Manchester United,Celta Vigo,,Man United,espn_core_api,played
+2016-17,UEL,2017-05-24,Ajax Amsterdam,Manchester United,,Man United,espn_core_api,played
+2017-18,UEL,2017-07-27,Everton,MFK Ruzomberok,,Everton,espn_core_api,played
+2017-18,UEL,2017-08-03,MFK Ruzomberok,Everton,,Everton,espn_core_api,played
+2017-18,UCL,2017-08-15,TSG Hoffenheim,Liverpool,,Liverpool,espn_core_api,played
+2017-18,UEL,2017-08-17,Everton,Hajduk Split,,Everton,espn_core_api,played
+2017-18,UCL,2017-08-23,Liverpool,TSG Hoffenheim,,Liverpool,espn_core_api,played
+2017-18,UEL,2017-08-24,Hajduk Split,Everton,,Everton,espn_core_api,played
+2017-18,UCL,2017-09-12,Chelsea,FK Qarabag,,Chelsea,espn_core_api,played
+2017-18,UCL,2017-09-12,Manchester United,FC Basel,,Man United,espn_core_api,played
+2017-18,UCL,2017-09-13,Liverpool,Sevilla,,Liverpool,espn_core_api,played
+2017-18,UCL,2017-09-13,Tottenham Hotspur,Borussia Dortmund,,Tottenham,espn_core_api,played
+2017-18,UCL,2017-09-13,Feyenoord Rotterdam,Manchester City,,Man City,espn_core_api,played
+2017-18,UEL,2017-09-14,Atalanta,Everton,,Everton,espn_core_api,played
+2017-18,UEL,2017-09-14,Arsenal,FC Cologne,,Arsenal,espn_core_api,played
+2017-18,UCL,2017-09-26,Apoel Nicosia,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2017-18,UCL,2017-09-26,Manchester City,Shakhtar Donetsk,,Man City,espn_core_api,played
+2017-18,UCL,2017-09-26,Spartak Moscow,Liverpool,,Liverpool,espn_core_api,played
+2017-18,UCL,2017-09-27,CSKA Moscow,Manchester United,,Man United,espn_core_api,played
+2017-18,UCL,2017-09-27,Atlético Madrid,Chelsea,,Chelsea,espn_core_api,played
+2017-18,UEL,2017-09-28,BATE Borisov,Arsenal,,Arsenal,espn_core_api,played
+2017-18,UEL,2017-09-28,Everton,Apollon Limassol,,Everton,espn_core_api,played
+2017-18,UCL,2017-10-17,NK Maribor,Liverpool,,Liverpool,espn_core_api,played
+2017-18,UCL,2017-10-17,Manchester City,Napoli,,Man City,espn_core_api,played
+2017-18,UCL,2017-10-17,Real Madrid,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2017-18,UCL,2017-10-18,Chelsea,AS Roma,,Chelsea,espn_core_api,played
+2017-18,UCL,2017-10-18,Benfica,Manchester United,,Man United,espn_core_api,played
+2017-18,UEL,2017-10-19,Everton,Lyon,,Everton,espn_core_api,played
+2017-18,UEL,2017-10-19,Red Star Belgrade,Arsenal,,Arsenal,espn_core_api,played
+2017-18,UCL,2017-10-31,AS Roma,Chelsea,,Chelsea,espn_core_api,played
+2017-18,UCL,2017-10-31,Manchester United,Benfica,,Man United,espn_core_api,played
+2017-18,UCL,2017-11-01,Napoli,Manchester City,,Man City,espn_core_api,played
+2017-18,UCL,2017-11-01,Tottenham Hotspur,Real Madrid,,Tottenham,espn_core_api,played
+2017-18,UCL,2017-11-01,Liverpool,NK Maribor,,Liverpool,espn_core_api,played
+2017-18,UEL,2017-11-02,Lyon,Everton,,Everton,espn_core_api,played
+2017-18,UEL,2017-11-02,Arsenal,Red Star Belgrade,,Arsenal,espn_core_api,played
+2017-18,UCL,2017-11-21,Manchester City,Feyenoord Rotterdam,,Man City,espn_core_api,played
+2017-18,UCL,2017-11-21,Sevilla,Liverpool,,Liverpool,espn_core_api,played
+2017-18,UCL,2017-11-21,Borussia Dortmund,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2017-18,UCL,2017-11-22,FC Basel,Manchester United,,Man United,espn_core_api,played
+2017-18,UCL,2017-11-22,FK Qarabag,Chelsea,,Chelsea,espn_core_api,played
+2017-18,UEL,2017-11-23,Everton,Atalanta,,Everton,espn_core_api,played
+2017-18,UEL,2017-11-23,FC Cologne,Arsenal,,Arsenal,espn_core_api,played
+2017-18,UCL,2017-12-05,Chelsea,Atlético Madrid,,Chelsea,espn_core_api,played
+2017-18,UCL,2017-12-05,Manchester United,CSKA Moscow,,Man United,espn_core_api,played
+2017-18,UCL,2017-12-06,Tottenham Hotspur,Apoel Nicosia,,Tottenham,espn_core_api,played
+2017-18,UCL,2017-12-06,Liverpool,Spartak Moscow,,Liverpool,espn_core_api,played
+2017-18,UCL,2017-12-06,Shakhtar Donetsk,Manchester City,,Man City,espn_core_api,played
+2017-18,UEL,2017-12-07,Arsenal,BATE Borisov,,Arsenal,espn_core_api,played
+2017-18,UEL,2017-12-07,Apollon Limassol,Everton,,Everton,espn_core_api,played
+2017-18,UCL,2018-02-13,Juventus,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2017-18,UCL,2018-02-13,FC Basel,Manchester City,,Man City,espn_core_api,played
+2017-18,UCL,2018-02-14,FC Porto,Liverpool,,Liverpool,espn_core_api,played
+2017-18,UEL,2018-02-15,Östersunds FK,Arsenal,,Arsenal,espn_core_api,played
+2017-18,UCL,2018-02-20,Chelsea,Barcelona,,Chelsea,espn_core_api,played
+2017-18,UCL,2018-02-21,Sevilla,Manchester United,,Man United,espn_core_api,played
+2017-18,UEL,2018-02-22,Arsenal,Östersunds FK,,Arsenal,espn_core_api,played
+2017-18,UCL,2018-03-06,Liverpool,FC Porto,,Liverpool,espn_core_api,played
+2017-18,UCL,2018-03-07,Manchester City,FC Basel,,Man City,espn_core_api,played
+2017-18,UCL,2018-03-07,Tottenham Hotspur,Juventus,,Tottenham,espn_core_api,played
+2017-18,UEL,2018-03-08,AC Milan,Arsenal,,Arsenal,espn_core_api,played
+2017-18,UCL,2018-03-13,Manchester United,Sevilla,,Man United,espn_core_api,played
+2017-18,UCL,2018-03-14,Barcelona,Chelsea,,Chelsea,espn_core_api,played
+2017-18,UEL,2018-03-15,Arsenal,AC Milan,,Arsenal,espn_core_api,played
+2017-18,UCL,2018-04-04,Liverpool,Manchester City,,Liverpool/Man City,espn_core_api,played
+2017-18,UEL,2018-04-05,Arsenal,CSKA Moscow,,Arsenal,espn_core_api,played
+2017-18,UCL,2018-04-10,Manchester City,Liverpool,,Liverpool/Man City,espn_core_api,played
+2017-18,UEL,2018-04-12,CSKA Moscow,Arsenal,,Arsenal,espn_core_api,played
+2017-18,UCL,2018-04-24,Liverpool,AS Roma,,Liverpool,espn_core_api,played
+2017-18,UEL,2018-04-26,Arsenal,Atlético Madrid,,Arsenal,espn_core_api,played
+2017-18,UCL,2018-05-02,AS Roma,Liverpool,,Liverpool,espn_core_api,played
+2017-18,UEL,2018-05-03,Atlético Madrid,Arsenal,,Arsenal,espn_core_api,played
+2017-18,UCL,2018-05-26,Real Madrid,Liverpool,,Liverpool,espn_core_api,played
+2018-19,UEL,2018-07-26,Aberdeen,Burnley,,Burnley,espn_core_api,played
+2018-19,UEL,2018-08-02,Burnley,Aberdeen,,Burnley,espn_core_api,played
+2018-19,UEL,2018-08-09,Istanbul Basaksehir,Burnley,,Burnley,espn_core_api,played
+2018-19,UEL,2018-08-16,Burnley,Istanbul Basaksehir,,Burnley,espn_core_api,played
+2018-19,UEL,2018-08-23,Olympiacos,Burnley,,Burnley,espn_core_api,played
+2018-19,UEL,2018-08-30,Burnley,Olympiacos,,Burnley,espn_core_api,played
+2018-19,UCL,2018-09-18,Internazionale,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2018-19,UCL,2018-09-18,Liverpool,Paris Saint-Germain,,Liverpool,espn_core_api,played
+2018-19,UCL,2018-09-19,Young Boys,Manchester United,,Man United,espn_core_api,played
+2018-19,UCL,2018-09-19,Manchester City,Lyon,,Man City,espn_core_api,played
+2018-19,UEL,2018-09-20,PAOK,Chelsea,,Chelsea,espn_core_api,played
+2018-19,UEL,2018-09-20,Arsenal,Vorskla,,Arsenal,espn_core_api,played
+2018-19,UCL,2018-10-02,Manchester United,Valencia,,Man United,espn_core_api,played
+2018-19,UCL,2018-10-02,TSG Hoffenheim,Manchester City,,Man City,espn_core_api,played
+2018-19,UCL,2018-10-03,Napoli,Liverpool,,Liverpool,espn_core_api,played
+2018-19,UCL,2018-10-03,Tottenham Hotspur,Barcelona,,Tottenham,espn_core_api,played
+2018-19,UEL,2018-10-04,Chelsea,Fehérvár,,Chelsea,espn_core_api,played
+2018-19,UEL,2018-10-04,FK Qarabag,Arsenal,,Arsenal,espn_core_api,played
+2018-19,UCL,2018-10-23,Shakhtar Donetsk,Manchester City,,Man City,espn_core_api,played
+2018-19,UCL,2018-10-23,Manchester United,Juventus,,Man United,espn_core_api,played
+2018-19,UCL,2018-10-24,PSV Eindhoven,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2018-19,UCL,2018-10-24,Liverpool,Red Star Belgrade,,Liverpool,espn_core_api,played
+2018-19,UEL,2018-10-25,Sporting CP,Arsenal,,Arsenal,espn_core_api,played
+2018-19,UEL,2018-10-25,Chelsea,BATE Borisov,,Chelsea,espn_core_api,played
+2018-19,UCL,2018-11-06,Tottenham Hotspur,PSV Eindhoven,,Tottenham,espn_core_api,played
+2018-19,UCL,2018-11-06,Red Star Belgrade,Liverpool,,Liverpool,espn_core_api,played
+2018-19,UCL,2018-11-07,Manchester City,Shakhtar Donetsk,,Man City,espn_core_api,played
+2018-19,UCL,2018-11-07,Juventus,Manchester United,,Man United,espn_core_api,played
+2018-19,UEL,2018-11-08,BATE Borisov,Chelsea,,Chelsea,espn_core_api,played
+2018-19,UEL,2018-11-08,Arsenal,Sporting CP,,Arsenal,espn_core_api,played
+2018-19,UCL,2018-11-27,Lyon,Manchester City,,Man City,espn_core_api,played
+2018-19,UCL,2018-11-27,Manchester United,Young Boys,,Man United,espn_core_api,played
+2018-19,UCL,2018-11-28,Paris Saint-Germain,Liverpool,,Liverpool,espn_core_api,played
+2018-19,UCL,2018-11-28,Tottenham Hotspur,Internazionale,,Tottenham,espn_core_api,played
+2018-19,UEL,2018-11-29,Chelsea,PAOK,,Chelsea,espn_core_api,played
+2018-19,UEL,2018-11-29,Vorskla,Arsenal,,Arsenal,espn_core_api,played
+2018-19,UCL,2018-12-11,Barcelona,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2018-19,UCL,2018-12-11,Liverpool,Napoli,,Liverpool,espn_core_api,played
+2018-19,UCL,2018-12-12,Manchester City,TSG Hoffenheim,,Man City,espn_core_api,played
+2018-19,UCL,2018-12-12,Valencia,Manchester United,,Man United,espn_core_api,played
+2018-19,UEL,2018-12-13,Fehérvár,Chelsea,,Chelsea,espn_core_api,played
+2018-19,UEL,2018-12-13,Arsenal,FK Qarabag,,Arsenal,espn_core_api,played
+2018-19,UCL,2019-02-12,Manchester United,Paris Saint-Germain,,Man United,espn_core_api,played
+2018-19,UCL,2019-02-13,Tottenham Hotspur,Borussia Dortmund,,Tottenham,espn_core_api,played
+2018-19,UEL,2019-02-14,Malmö FF,Chelsea,,Chelsea,espn_core_api,played
+2018-19,UEL,2019-02-14,BATE Borisov,Arsenal,,Arsenal,espn_core_api,played
+2018-19,UCL,2019-02-19,Liverpool,Bayern Munich,,Liverpool,espn_core_api,played
+2018-19,UCL,2019-02-20,Schalke 04,Manchester City,,Man City,espn_core_api,played
+2018-19,UEL,2019-02-21,Arsenal,BATE Borisov,,Arsenal,espn_core_api,played
+2018-19,UEL,2019-02-21,Chelsea,Malmö FF,,Chelsea,espn_core_api,played
+2018-19,UCL,2019-03-05,Borussia Dortmund,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2018-19,UCL,2019-03-06,Paris Saint-Germain,Manchester United,,Man United,espn_core_api,played
+2018-19,UEL,2019-03-07,Chelsea,Dynamo Kyiv,,Chelsea,espn_core_api,played
+2018-19,UEL,2019-03-07,Stade Rennais,Arsenal,,Arsenal,espn_core_api,played
+2018-19,UCL,2019-03-12,Manchester City,Schalke 04,,Man City,espn_core_api,played
+2018-19,UCL,2019-03-13,Bayern Munich,Liverpool,,Liverpool,espn_core_api,played
+2018-19,UEL,2019-03-14,Arsenal,Stade Rennais,,Arsenal,espn_core_api,played
+2018-19,UEL,2019-03-14,Dynamo Kyiv,Chelsea,,Chelsea,espn_core_api,played
+2018-19,UCL,2019-04-09,Liverpool,FC Porto,,Liverpool,espn_core_api,played
+2018-19,UCL,2019-04-09,Tottenham Hotspur,Manchester City,,Man City/Tottenham,espn_core_api,played
+2018-19,UCL,2019-04-10,Manchester United,Barcelona,,Man United,espn_core_api,played
+2018-19,UEL,2019-04-11,Arsenal,Napoli,,Arsenal,espn_core_api,played
+2018-19,UEL,2019-04-11,Slavia Prague,Chelsea,,Chelsea,espn_core_api,played
+2018-19,UCL,2019-04-16,Barcelona,Manchester United,,Man United,espn_core_api,played
+2018-19,UCL,2019-04-17,FC Porto,Liverpool,,Liverpool,espn_core_api,played
+2018-19,UCL,2019-04-17,Manchester City,Tottenham Hotspur,,Man City/Tottenham,espn_core_api,played
+2018-19,UEL,2019-04-18,Napoli,Arsenal,,Arsenal,espn_core_api,played
+2018-19,UEL,2019-04-18,Chelsea,Slavia Prague,,Chelsea,espn_core_api,played
+2018-19,UCL,2019-04-30,Tottenham Hotspur,Ajax Amsterdam,,Tottenham,espn_core_api,played
+2018-19,UCL,2019-05-01,Barcelona,Liverpool,,Liverpool,espn_core_api,played
+2018-19,UEL,2019-05-02,Eintracht Frankfurt,Chelsea,,Chelsea,espn_core_api,played
+2018-19,UEL,2019-05-02,Arsenal,Valencia,,Arsenal,espn_core_api,played
+2018-19,UCL,2019-05-07,Liverpool,Barcelona,,Liverpool,espn_core_api,played
+2018-19,UCL,2019-05-08,Ajax Amsterdam,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2018-19,UEL,2019-05-09,Chelsea,Eintracht Frankfurt,,Chelsea,espn_core_api,played
+2018-19,UEL,2019-05-09,Valencia,Arsenal,,Arsenal,espn_core_api,played
+2018-19,UEL,2019-05-29,Chelsea,Arsenal,,Arsenal/Chelsea,espn_core_api,played
+2018-19,UCL,2019-06-01,Tottenham Hotspur,Liverpool,,Liverpool/Tottenham,espn_core_api,played
+2019-20,UEL,2019-07-25,Wolverhampton Wanderers,Crusaders,,Wolves,espn_core_api,played
+2019-20,UEL,2019-08-01,Crusaders,Wolverhampton Wanderers,,Wolves,espn_core_api,played
+2019-20,UEL,2019-08-08,Pyunik,Wolverhampton Wanderers,,Wolves,espn_core_api,played
+2019-20,UEL,2019-08-15,Wolverhampton Wanderers,Pyunik,,Wolves,espn_core_api,played
+2019-20,UEL,2019-08-22,Torino,Wolverhampton Wanderers,,Wolves,espn_core_api,played
+2019-20,UEL,2019-08-29,Wolverhampton Wanderers,Torino,,Wolves,espn_core_api,played
+2019-20,UCL,2019-09-17,Napoli,Liverpool,,Liverpool,espn_core_api,played
+2019-20,UCL,2019-09-17,Chelsea,Valencia,,Chelsea,espn_core_api,played
+2019-20,UCL,2019-09-18,Shakhtar Donetsk,Manchester City,,Man City,espn_core_api,played
+2019-20,UCL,2019-09-18,Olympiacos,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2019-20,UEL,2019-09-19,Wolverhampton Wanderers,Braga,,Wolves,espn_core_api,played
+2019-20,UEL,2019-09-19,Eintracht Frankfurt,Arsenal,,Arsenal,espn_core_api,played
+2019-20,UEL,2019-09-19,Manchester United,FC Astana,,Man United,espn_core_api,played
+2019-20,UCL,2019-10-01,Manchester City,Dinamo Zagreb,,Man City,espn_core_api,played
+2019-20,UCL,2019-10-01,Tottenham Hotspur,Bayern Munich,,Tottenham,espn_core_api,played
+2019-20,UCL,2019-10-02,Lille,Chelsea,,Chelsea,espn_core_api,played
+2019-20,UCL,2019-10-02,Liverpool,RB Salzburg,,Liverpool,espn_core_api,played
+2019-20,UEL,2019-10-03,Arsenal,Standard Liege,,Arsenal,espn_core_api,played
+2019-20,UEL,2019-10-03,AZ Alkmaar,Manchester United,,Man United,espn_core_api,played
+2019-20,UEL,2019-10-03,Besiktas,Wolverhampton Wanderers,,Wolves,espn_core_api,played
+2019-20,UCL,2019-10-22,Manchester City,Atalanta,,Man City,espn_core_api,played
+2019-20,UCL,2019-10-22,Tottenham Hotspur,Red Star Belgrade,,Tottenham,espn_core_api,played
+2019-20,UCL,2019-10-23,Racing Genk,Liverpool,,Liverpool,espn_core_api,played
+2019-20,UCL,2019-10-23,Ajax Amsterdam,Chelsea,,Chelsea,espn_core_api,played
+2019-20,UEL,2019-10-24,Partizan Belgrade,Manchester United,,Man United,espn_core_api,played
+2019-20,UEL,2019-10-24,Arsenal,Vitória de Guimaraes,,Arsenal,espn_core_api,played
+2019-20,UEL,2019-10-24,Slovan Bratislava,Wolverhampton Wanderers,,Wolves,espn_core_api,played
+2019-20,UCL,2019-11-05,Liverpool,Racing Genk,,Liverpool,espn_core_api,played
+2019-20,UCL,2019-11-05,Chelsea,Ajax Amsterdam,,Chelsea,espn_core_api,played
+2019-20,UCL,2019-11-06,Atalanta,Manchester City,,Man City,espn_core_api,played
+2019-20,UCL,2019-11-06,Red Star Belgrade,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2019-20,UEL,2019-11-06,Vitória de Guimaraes,Arsenal,,Arsenal,espn_core_api,played
+2019-20,UEL,2019-11-07,Wolverhampton Wanderers,Slovan Bratislava,,Wolves,espn_core_api,played
+2019-20,UEL,2019-11-07,Manchester United,Partizan Belgrade,,Man United,espn_core_api,played
+2019-20,UCL,2019-11-26,Tottenham Hotspur,Olympiacos,,Tottenham,espn_core_api,played
+2019-20,UCL,2019-11-26,Manchester City,Shakhtar Donetsk,,Man City,espn_core_api,played
+2019-20,UCL,2019-11-27,Liverpool,Napoli,,Liverpool,espn_core_api,played
+2019-20,UCL,2019-11-27,Valencia,Chelsea,,Chelsea,espn_core_api,played
+2019-20,UEL,2019-11-28,FC Astana,Manchester United,,Man United,espn_core_api,played
+2019-20,UEL,2019-11-28,Braga,Wolverhampton Wanderers,,Wolves,espn_core_api,played
+2019-20,UEL,2019-11-28,Arsenal,Eintracht Frankfurt,,Arsenal,espn_core_api,played
+2019-20,UCL,2019-12-10,RB Salzburg,Liverpool,,Liverpool,espn_core_api,played
+2019-20,UCL,2019-12-10,Chelsea,Lille,,Chelsea,espn_core_api,played
+2019-20,UCL,2019-12-11,Bayern Munich,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2019-20,UCL,2019-12-11,Dinamo Zagreb,Manchester City,,Man City,espn_core_api,played
+2019-20,UEL,2019-12-12,Manchester United,AZ Alkmaar,,Man United,espn_core_api,played
+2019-20,UEL,2019-12-12,Standard Liege,Arsenal,,Arsenal,espn_core_api,played
+2019-20,UEL,2019-12-12,Wolverhampton Wanderers,Besiktas,,Wolves,espn_core_api,played
+2019-20,UCL,2020-02-18,Atlético Madrid,Liverpool,,Liverpool,espn_core_api,played
+2019-20,UCL,2020-02-19,Tottenham Hotspur,RB Leipzig,,Tottenham,espn_core_api,played
+2019-20,UEL,2020-02-20,Wolverhampton Wanderers,Espanyol,,Wolves,espn_core_api,played
+2019-20,UEL,2020-02-20,Olympiacos,Arsenal,,Arsenal,espn_core_api,played
+2019-20,UEL,2020-02-20,Club Brugge,Manchester United,,Man United,espn_core_api,played
+2019-20,UCL,2020-02-25,Chelsea,Bayern Munich,,Chelsea,espn_core_api,played
+2019-20,UCL,2020-02-26,Real Madrid,Manchester City,,Man City,espn_core_api,played
+2019-20,UEL,2020-02-27,Arsenal,Olympiacos,,Arsenal,espn_core_api,played
+2019-20,UEL,2020-02-27,Manchester United,Club Brugge,,Man United,espn_core_api,played
+2019-20,UEL,2020-02-27,Espanyol,Wolverhampton Wanderers,,Wolves,espn_core_api,played
+2019-20,UCL,2020-03-10,RB Leipzig,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2019-20,UCL,2020-03-11,Liverpool,Atlético Madrid,,Liverpool,espn_core_api,played
+2019-20,UEL,2020-03-12,LASK Linz,Manchester United,,Man United,espn_core_api,played
+2019-20,UEL,2020-03-12,Olympiacos,Wolverhampton Wanderers,,Wolves,espn_core_api,played
+2019-20,UEL,2020-08-05,Manchester United,LASK Linz,,Man United,espn_core_api,played
+2019-20,UEL,2020-08-06,Wolverhampton Wanderers,Olympiacos,,Wolves,espn_core_api,played
+2019-20,UCL,2020-08-07,Manchester City,Real Madrid,,Man City,espn_core_api,played
+2019-20,UCL,2020-08-08,Bayern Munich,Chelsea,,Chelsea,espn_core_api,played
+2019-20,UEL,2020-08-10,Manchester United,F.C. København,,Man United,espn_core_api,played
+2019-20,UEL,2020-08-11,Wolverhampton Wanderers,Sevilla,,Wolves,espn_core_api,played
+2019-20,UCL,2020-08-15,Manchester City,Lyon,,Man City,espn_core_api,played
+2019-20,UEL,2020-08-16,Sevilla,Manchester United,,Man United,espn_core_api,played
+2020-21,UEL,2020-09-17,Lokomotiv Plovdiv,Tottenham Hotspur,Q2,Tottenham,tottenhamhotspur.com+uefa,played
+2020-21,UEL,2020-09-24,Shkëndija,Tottenham Hotspur,Q3,Tottenham,tottenhamhotspur.com+uefa,played
+2020-21,UEL,2020-10-01,Tottenham Hotspur,Maccabi Haifa,play-off,Tottenham,tottenhamhotspur.com+uefa,played
+2020-21,UCL,2020-10-20,Chelsea,Sevilla,,Chelsea,espn_core_api,played
+2020-21,UCL,2020-10-20,Paris Saint-Germain,Manchester United,,Man United,espn_core_api,played
+2020-21,UCL,2020-10-21,Manchester City,FC Porto,,Man City,espn_core_api,played
+2020-21,UCL,2020-10-21,Ajax Amsterdam,Liverpool,,Liverpool,espn_core_api,played
+2020-21,UEL,2020-10-22,Leicester City,FC Zorya Luhansk,,Leicester,espn_core_api,played
+2020-21,UEL,2020-10-22,Rapid Vienna,Arsenal,,Arsenal,espn_core_api,played
+2020-21,UEL,2020-10-22,Tottenham Hotspur,LASK Linz,,Tottenham,espn_core_api,played
+2020-21,UCL,2020-10-27,Liverpool,FC Midtjylland,,Liverpool,espn_core_api,played
+2020-21,UCL,2020-10-27,Marseille,Manchester City,,Man City,espn_core_api,played
+2020-21,UCL,2020-10-28,Krasnodar,Chelsea,,Chelsea,espn_core_api,played
+2020-21,UCL,2020-10-28,Manchester United,RB Leipzig,,Man United,espn_core_api,played
+2020-21,UEL,2020-10-29,AEK Athens,Leicester City,,Leicester,espn_core_api,played
+2020-21,UEL,2020-10-29,Antwerp,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2020-21,UEL,2020-10-29,Arsenal,Dundalk,,Arsenal,espn_core_api,played
+2020-21,UCL,2020-11-03,Manchester City,Olympiacos,,Man City,espn_core_api,played
+2020-21,UCL,2020-11-03,Atalanta,Liverpool,,Liverpool,espn_core_api,played
+2020-21,UCL,2020-11-04,Istanbul Basaksehir,Manchester United,,Man United,espn_core_api,played
+2020-21,UCL,2020-11-04,Chelsea,Stade Rennais,,Chelsea,espn_core_api,played
+2020-21,UEL,2020-11-05,Arsenal,Molde,,Arsenal,espn_core_api,played
+2020-21,UEL,2020-11-05,Leicester City,Braga,,Leicester,espn_core_api,played
+2020-21,UEL,2020-11-05,Ludogorets Razgrad,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2020-21,UCL,2020-11-24,Stade Rennais,Chelsea,,Chelsea,espn_core_api,played
+2020-21,UCL,2020-11-24,Manchester United,Istanbul Basaksehir,,Man United,espn_core_api,played
+2020-21,UCL,2020-11-25,Liverpool,Atalanta,,Liverpool,espn_core_api,played
+2020-21,UCL,2020-11-25,Olympiacos,Manchester City,,Man City,espn_core_api,played
+2020-21,UEL,2020-11-26,Tottenham Hotspur,Ludogorets Razgrad,,Tottenham,espn_core_api,played
+2020-21,UEL,2020-11-26,Braga,Leicester City,,Leicester,espn_core_api,played
+2020-21,UEL,2020-11-26,Molde,Arsenal,,Arsenal,espn_core_api,played
+2020-21,UCL,2020-12-01,FC Porto,Manchester City,,Man City,espn_core_api,played
+2020-21,UCL,2020-12-01,Liverpool,Ajax Amsterdam,,Liverpool,espn_core_api,played
+2020-21,UCL,2020-12-02,Manchester United,Paris Saint-Germain,,Man United,espn_core_api,played
+2020-21,UCL,2020-12-02,Sevilla,Chelsea,,Chelsea,espn_core_api,played
+2020-21,UEL,2020-12-03,FC Zorya Luhansk,Leicester City,,Leicester,espn_core_api,played
+2020-21,UEL,2020-12-03,Arsenal,Rapid Vienna,,Arsenal,espn_core_api,played
+2020-21,UEL,2020-12-03,LASK Linz,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2020-21,UCL,2020-12-08,Chelsea,Krasnodar,,Chelsea,espn_core_api,played
+2020-21,UCL,2020-12-08,RB Leipzig,Manchester United,,Man United,espn_core_api,played
+2020-21,UCL,2020-12-09,FC Midtjylland,Liverpool,,Liverpool,espn_core_api,played
+2020-21,UCL,2020-12-09,Manchester City,Marseille,,Man City,espn_core_api,played
+2020-21,UEL,2020-12-10,Dundalk,Arsenal,,Arsenal,espn_core_api,played
+2020-21,UEL,2020-12-10,Leicester City,AEK Athens,,Leicester,espn_core_api,played
+2020-21,UEL,2020-12-10,Tottenham Hotspur,Antwerp,,Tottenham,espn_core_api,played
+2020-21,UCL,2021-02-16,RB Leipzig,Liverpool,,Liverpool,espn_core_api,played
+2020-21,UEL,2021-02-18,Slavia Prague,Leicester City,,Leicester,espn_core_api,played
+2020-21,UEL,2021-02-18,Benfica,Arsenal,,Arsenal,espn_core_api,played
+2020-21,UEL,2021-02-18,Wolfsberger,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2020-21,UEL,2021-02-18,Real Sociedad,Manchester United,,Man United,espn_core_api,played
+2020-21,UCL,2021-02-23,Atlético Madrid,Chelsea,,Chelsea,espn_core_api,played
+2020-21,UCL,2021-02-24,Borussia Mönchengladbach,Manchester City,,Man City,espn_core_api,played
+2020-21,UEL,2021-02-24,Tottenham Hotspur,Wolfsberger,,Tottenham,espn_core_api,played
+2020-21,UEL,2021-02-25,Manchester United,Real Sociedad,,Man United,espn_core_api,played
+2020-21,UEL,2021-02-25,Arsenal,Benfica,,Arsenal,espn_core_api,played
+2020-21,UEL,2021-02-25,Leicester City,Slavia Prague,,Leicester,espn_core_api,played
+2020-21,UCL,2021-03-10,Liverpool,RB Leipzig,,Liverpool,espn_core_api,played
+2020-21,UEL,2021-03-11,Manchester United,AC Milan,,Man United,espn_core_api,played
+2020-21,UEL,2021-03-11,Olympiacos,Arsenal,,Arsenal,espn_core_api,played
+2020-21,UEL,2021-03-11,Tottenham Hotspur,Dinamo Zagreb,,Tottenham,espn_core_api,played
+2020-21,UCL,2021-03-16,Manchester City,Borussia Mönchengladbach,,Man City,espn_core_api,played
+2020-21,UCL,2021-03-17,Chelsea,Atlético Madrid,,Chelsea,espn_core_api,played
+2020-21,UEL,2021-03-18,AC Milan,Manchester United,,Man United,espn_core_api,played
+2020-21,UEL,2021-03-18,Arsenal,Olympiacos,,Arsenal,espn_core_api,played
+2020-21,UEL,2021-03-18,Dinamo Zagreb,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2020-21,UCL,2021-04-06,Manchester City,Borussia Dortmund,,Man City,espn_core_api,played
+2020-21,UCL,2021-04-06,Real Madrid,Liverpool,,Liverpool,espn_core_api,played
+2020-21,UCL,2021-04-07,FC Porto,Chelsea,,Chelsea,espn_core_api,played
+2020-21,UEL,2021-04-08,Granada,Manchester United,,Man United,espn_core_api,played
+2020-21,UEL,2021-04-08,Arsenal,Slavia Prague,,Arsenal,espn_core_api,played
+2020-21,UCL,2021-04-13,Chelsea,FC Porto,,Chelsea,espn_core_api,played
+2020-21,UCL,2021-04-14,Liverpool,Real Madrid,,Liverpool,espn_core_api,played
+2020-21,UCL,2021-04-14,Borussia Dortmund,Manchester City,,Man City,espn_core_api,played
+2020-21,UEL,2021-04-15,Slavia Prague,Arsenal,,Arsenal,espn_core_api,played
+2020-21,UEL,2021-04-15,Manchester United,Granada,,Man United,espn_core_api,played
+2020-21,UCL,2021-04-27,Real Madrid,Chelsea,,Chelsea,espn_core_api,played
+2020-21,UCL,2021-04-28,Paris Saint-Germain,Manchester City,,Man City,espn_core_api,played
+2020-21,UEL,2021-04-29,Villarreal,Arsenal,,Arsenal,espn_core_api,played
+2020-21,UEL,2021-04-29,Manchester United,AS Roma,,Man United,espn_core_api,played
+2020-21,UCL,2021-05-04,Manchester City,Paris Saint-Germain,,Man City,espn_core_api,played
+2020-21,UCL,2021-05-05,Chelsea,Real Madrid,,Chelsea,espn_core_api,played
+2020-21,UEL,2021-05-06,AS Roma,Manchester United,,Man United,espn_core_api,played
+2020-21,UEL,2021-05-06,Arsenal,Villarreal,,Arsenal,espn_core_api,played
+2020-21,UEL,2021-05-26,Villarreal,Manchester United,,Man United,espn_core_api,played
+2020-21,UCL,2021-05-29,Manchester City,Chelsea,,Chelsea/Man City,espn_core_api,played
+2021-22,UCL,2021-09-14,Young Boys,Manchester United,,Man United,espn_core_api,played
+2021-22,UCL,2021-09-14,Chelsea,Zenit St Petersburg,,Chelsea,espn_core_api,played
+2021-22,UCL,2021-09-15,Liverpool,AC Milan,,Liverpool,espn_core_api,played
+2021-22,UCL,2021-09-15,Manchester City,RB Leipzig,,Man City,espn_core_api,played
+2021-22,UECL,2021-09-16,Rennes,Tottenham Hotspur,league/group,Tottenham,fotmob_next_data,played
+2021-22,UEL,2021-09-16,Dinamo Zagreb,West Ham United,,West Ham,espn_core_api,played
+2021-22,UEL,2021-09-16,Leicester City,Napoli,,Leicester,espn_core_api,played
+2021-22,UCL,2021-09-28,Paris Saint-Germain,Manchester City,,Man City,espn_core_api,played
+2021-22,UCL,2021-09-28,FC Porto,Liverpool,,Liverpool,espn_core_api,played
+2021-22,UCL,2021-09-29,Juventus,Chelsea,,Chelsea,espn_core_api,played
+2021-22,UCL,2021-09-29,Manchester United,Villarreal,,Man United,espn_core_api,played
+2021-22,UECL,2021-09-30,Tottenham Hotspur,Mura,league/group,Tottenham,fotmob_next_data,played
+2021-22,UEL,2021-09-30,West Ham United,Rapid Vienna,,West Ham,espn_core_api,played
+2021-22,UEL,2021-09-30,Legia Warsaw,Leicester City,,Leicester,espn_core_api,played
+2021-22,UCL,2021-10-19,Atlético Madrid,Liverpool,,Liverpool,espn_core_api,played
+2021-22,UCL,2021-10-19,Club Brugge,Manchester City,,Man City,espn_core_api,played
+2021-22,UCL,2021-10-20,Manchester United,Atalanta,,Man United,espn_core_api,played
+2021-22,UCL,2021-10-20,Chelsea,Malmö FF,,Chelsea,espn_core_api,played
+2021-22,UEL,2021-10-20,Spartak Moscow,Leicester City,,Leicester,espn_core_api,played
+2021-22,UECL,2021-10-21,Vitesse,Tottenham Hotspur,league/group,Tottenham,fotmob_next_data,played
+2021-22,UEL,2021-10-21,West Ham United,Racing Genk,,West Ham,espn_core_api,played
+2021-22,UCL,2021-11-02,Atalanta,Manchester United,,Man United,espn_core_api,played
+2021-22,UCL,2021-11-02,Malmö FF,Chelsea,,Chelsea,espn_core_api,played
+2021-22,UCL,2021-11-03,Manchester City,Club Brugge,,Man City,espn_core_api,played
+2021-22,UCL,2021-11-03,Liverpool,Atlético Madrid,,Liverpool,espn_core_api,played
+2021-22,UECL,2021-11-04,Tottenham Hotspur,Vitesse,league/group,Tottenham,fotmob_next_data,played
+2021-22,UEL,2021-11-04,Leicester City,Spartak Moscow,,Leicester,espn_core_api,played
+2021-22,UEL,2021-11-04,Racing Genk,West Ham United,,West Ham,espn_core_api,played
+2021-22,UCL,2021-11-23,Villarreal,Manchester United,,Man United,espn_core_api,played
+2021-22,UCL,2021-11-23,Chelsea,Juventus,,Chelsea,espn_core_api,played
+2021-22,UCL,2021-11-24,Manchester City,Paris Saint-Germain,,Man City,espn_core_api,played
+2021-22,UCL,2021-11-24,Liverpool,FC Porto,,Liverpool,espn_core_api,played
+2021-22,UECL,2021-11-25,Mura,Tottenham Hotspur,league/group,Tottenham,fotmob_next_data,played
+2021-22,UEL,2021-11-25,Leicester City,Legia Warsaw,,Leicester,espn_core_api,played
+2021-22,UEL,2021-11-25,Rapid Vienna,West Ham United,,West Ham,espn_core_api,played
+2021-22,UCL,2021-12-07,RB Leipzig,Manchester City,,Man City,espn_core_api,played
+2021-22,UCL,2021-12-07,AC Milan,Liverpool,,Liverpool,espn_core_api,played
+2021-22,UCL,2021-12-08,Manchester United,Young Boys,,Man United,espn_core_api,played
+2021-22,UCL,2021-12-08,Zenit St Petersburg,Chelsea,,Chelsea,espn_core_api,played
+2021-22,UECL,2021-12-09,Tottenham Hotspur,Rennes,league/group,Tottenham,fotmob_next_data,awarded_not_played
+2021-22,UEL,2021-12-09,Napoli,Leicester City,,Leicester,espn_core_api,played
+2021-22,UEL,2021-12-09,West Ham United,Dinamo Zagreb,,West Ham,espn_core_api,played
+2021-22,UCL,2022-02-15,Sporting CP,Manchester City,,Man City,espn_core_api,played
+2021-22,UCL,2022-02-16,Internazionale,Liverpool,,Liverpool,espn_core_api,played
+2021-22,UECL,2022-02-17,Leicester City,Randers FC,Round of 32,Leicester,fotmob_next_data,played
+2021-22,UCL,2022-02-22,Chelsea,Lille,,Chelsea,espn_core_api,played
+2021-22,UCL,2022-02-23,Atlético Madrid,Manchester United,,Man United,espn_core_api,played
+2021-22,UECL,2022-02-24,Randers FC,Leicester City,Round of 32,Leicester,fotmob_next_data,played
+2021-22,UCL,2022-03-08,Liverpool,Internazionale,,Liverpool,espn_core_api,played
+2021-22,UCL,2022-03-09,Manchester City,Sporting CP,,Man City,espn_core_api,played
+2021-22,UECL,2022-03-10,Leicester City,Rennes,Round of 16,Leicester,fotmob_next_data,played
+2021-22,UEL,2022-03-10,Sevilla,West Ham United,,West Ham,espn_core_api,played
+2021-22,UCL,2022-03-15,Manchester United,Atlético Madrid,,Man United,espn_core_api,played
+2021-22,UCL,2022-03-16,Lille,Chelsea,,Chelsea,espn_core_api,played
+2021-22,UECL,2022-03-17,Rennes,Leicester City,Round of 16,Leicester,fotmob_next_data,played
+2021-22,UEL,2022-03-17,West Ham United,Sevilla,,West Ham,espn_core_api,played
+2021-22,UCL,2022-04-05,Benfica,Liverpool,,Liverpool,espn_core_api,played
+2021-22,UCL,2022-04-05,Manchester City,Atlético Madrid,,Man City,espn_core_api,played
+2021-22,UCL,2022-04-06,Chelsea,Real Madrid,,Chelsea,espn_core_api,played
+2021-22,UECL,2022-04-07,Leicester City,PSV Eindhoven,Quarter-Finals,Leicester,fotmob_next_data,played
+2021-22,UEL,2022-04-07,West Ham United,Lyon,,West Ham,espn_core_api,played
+2021-22,UCL,2022-04-12,Real Madrid,Chelsea,,Chelsea,espn_core_api,played
+2021-22,UCL,2022-04-13,Liverpool,Benfica,,Liverpool,espn_core_api,played
+2021-22,UCL,2022-04-13,Atlético Madrid,Manchester City,,Man City,espn_core_api,played
+2021-22,UECL,2022-04-14,PSV Eindhoven,Leicester City,Quarter-Finals,Leicester,fotmob_next_data,played
+2021-22,UEL,2022-04-14,Lyon,West Ham United,,West Ham,espn_core_api,played
+2021-22,UCL,2022-04-26,Manchester City,Real Madrid,,Man City,espn_core_api,played
+2021-22,UCL,2022-04-27,Liverpool,Villarreal,,Liverpool,espn_core_api,played
+2021-22,UECL,2022-04-28,Leicester City,Roma,Semi-Finals,Leicester,fotmob_next_data,played
+2021-22,UEL,2022-04-28,West Ham United,Eintracht Frankfurt,,West Ham,espn_core_api,played
+2021-22,UCL,2022-05-03,Villarreal,Liverpool,,Liverpool,espn_core_api,played
+2021-22,UCL,2022-05-04,Real Madrid,Manchester City,,Man City,espn_core_api,played
+2021-22,UECL,2022-05-05,Roma,Leicester City,Semi-Finals,Leicester,fotmob_next_data,played
+2021-22,UEL,2022-05-05,Eintracht Frankfurt,West Ham United,,West Ham,espn_core_api,played
+2021-22,UCL,2022-05-28,Liverpool,Real Madrid,,Liverpool,espn_core_api,played
+2022-23,UECL,2022-08-18,West Ham United,Viborg FF,play-off,West Ham,wikipedia+club/press,played
+2022-23,UECL,2022-08-25,Viborg FF,West Ham United,play-off,West Ham,wikipedia+club/press,played
+2022-23,UCL,2022-09-06,Dinamo Zagreb,Chelsea,,Chelsea,espn_core_api,played
+2022-23,UCL,2022-09-06,Sevilla,Manchester City,,Man City,espn_core_api,played
+2022-23,UCL,2022-09-07,Napoli,Liverpool,,Liverpool,espn_core_api,played
+2022-23,UCL,2022-09-07,Tottenham Hotspur,Marseille,,Tottenham,espn_core_api,played
+2022-23,UECL,2022-09-08,West Ham United,FCSB,league/group,West Ham,fotmob_next_data,played
+2022-23,UEL,2022-09-08,Manchester United,Real Sociedad,,Man United,espn_core_api,played
+2022-23,UEL,2022-09-08,FC Zürich,Arsenal,,Arsenal,espn_core_api,played
+2022-23,UCL,2022-09-13,Liverpool,Ajax Amsterdam,,Liverpool,espn_core_api,played
+2022-23,UCL,2022-09-13,Sporting CP,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2022-23,UCL,2022-09-14,Chelsea,RB Salzburg,,Chelsea,espn_core_api,played
+2022-23,UCL,2022-09-14,Manchester City,Borussia Dortmund,,Man City,espn_core_api,played
+2022-23,UECL,2022-09-15,Silkeborg,West Ham United,league/group,West Ham,fotmob_next_data,played
+2022-23,UEL,2022-09-15,Sheriff Tiraspol,Manchester United,,Man United,espn_core_api,played
+2022-23,UCL,2022-10-04,Eintracht Frankfurt,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2022-23,UCL,2022-10-04,Liverpool,Rangers,,Liverpool,espn_core_api,played
+2022-23,UCL,2022-10-05,Chelsea,AC Milan,,Chelsea,espn_core_api,played
+2022-23,UCL,2022-10-05,Manchester City,F.C. København,,Man City,espn_core_api,played
+2022-23,UECL,2022-10-06,Anderlecht,West Ham United,league/group,West Ham,fotmob_next_data,played
+2022-23,UEL,2022-10-06,Omonia Nicosia,Manchester United,,Man United,espn_core_api,played
+2022-23,UEL,2022-10-06,Arsenal,Bodo/Glimt,,Arsenal,espn_core_api,played
+2022-23,UCL,2022-10-11,AC Milan,Chelsea,,Chelsea,espn_core_api,played
+2022-23,UCL,2022-10-11,F.C. København,Manchester City,,Man City,espn_core_api,played
+2022-23,UCL,2022-10-12,Tottenham Hotspur,Eintracht Frankfurt,,Tottenham,espn_core_api,played
+2022-23,UCL,2022-10-12,Rangers,Liverpool,,Liverpool,espn_core_api,played
+2022-23,UECL,2022-10-13,West Ham United,Anderlecht,league/group,West Ham,fotmob_next_data,played
+2022-23,UEL,2022-10-13,Bodo/Glimt,Arsenal,,Arsenal,espn_core_api,played
+2022-23,UEL,2022-10-13,Manchester United,Omonia Nicosia,,Man United,espn_core_api,played
+2022-23,UEL,2022-10-20,Arsenal,PSV Eindhoven,,Arsenal,espn_core_api,played
+2022-23,UCL,2022-10-25,Borussia Dortmund,Manchester City,,Man City,espn_core_api,played
+2022-23,UCL,2022-10-25,RB Salzburg,Chelsea,,Chelsea,espn_core_api,played
+2022-23,UCL,2022-10-26,Tottenham Hotspur,Sporting CP,,Tottenham,espn_core_api,played
+2022-23,UCL,2022-10-26,Ajax Amsterdam,Liverpool,,Liverpool,espn_core_api,played
+2022-23,UECL,2022-10-27,West Ham United,Silkeborg,league/group,West Ham,fotmob_next_data,played
+2022-23,UEL,2022-10-27,Manchester United,Sheriff Tiraspol,,Man United,espn_core_api,played
+2022-23,UEL,2022-10-27,PSV Eindhoven,Arsenal,,Arsenal,espn_core_api,played
+2022-23,UCL,2022-11-01,Liverpool,Napoli,,Liverpool,espn_core_api,played
+2022-23,UCL,2022-11-01,Marseille,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2022-23,UCL,2022-11-02,Chelsea,Dinamo Zagreb,,Chelsea,espn_core_api,played
+2022-23,UCL,2022-11-02,Manchester City,Sevilla,,Man City,espn_core_api,played
+2022-23,UECL,2022-11-03,FCSB,West Ham United,league/group,West Ham,fotmob_next_data,played
+2022-23,UEL,2022-11-03,Arsenal,FC Zürich,,Arsenal,espn_core_api,played
+2022-23,UEL,2022-11-03,Real Sociedad,Manchester United,,Man United,espn_core_api,played
+2022-23,UCL,2023-02-14,AC Milan,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2022-23,UCL,2023-02-15,Borussia Dortmund,Chelsea,,Chelsea,espn_core_api,played
+2022-23,UEL,2023-02-16,Barcelona,Manchester United,,Man United,espn_core_api,played
+2022-23,UCL,2023-02-21,Liverpool,Real Madrid,,Liverpool,espn_core_api,played
+2022-23,UCL,2023-02-22,RB Leipzig,Manchester City,,Man City,espn_core_api,played
+2022-23,UEL,2023-02-23,Manchester United,Barcelona,,Man United,espn_core_api,played
+2022-23,UCL,2023-03-07,Chelsea,Borussia Dortmund,,Chelsea,espn_core_api,played
+2022-23,UCL,2023-03-08,Tottenham Hotspur,AC Milan,,Tottenham,espn_core_api,played
+2022-23,UECL,2023-03-09,AEK Larnaca,West Ham United,Round of 16,West Ham,fotmob_next_data,played
+2022-23,UEL,2023-03-09,Manchester United,Real Betis,,Man United,espn_core_api,played
+2022-23,UEL,2023-03-09,Sporting CP,Arsenal,,Arsenal,espn_core_api,played
+2022-23,UCL,2023-03-14,Manchester City,RB Leipzig,,Man City,espn_core_api,played
+2022-23,UCL,2023-03-15,Real Madrid,Liverpool,,Liverpool,espn_core_api,played
+2022-23,UECL,2023-03-16,West Ham United,AEK Larnaca,Round of 16,West Ham,fotmob_next_data,played
+2022-23,UEL,2023-03-16,Real Betis,Manchester United,,Man United,espn_core_api,played
+2022-23,UEL,2023-03-16,Arsenal,Sporting CP,,Arsenal,espn_core_api,played
+2022-23,UCL,2023-04-11,Manchester City,Bayern Munich,,Man City,espn_core_api,played
+2022-23,UCL,2023-04-12,Real Madrid,Chelsea,,Chelsea,espn_core_api,played
+2022-23,UECL,2023-04-13,Gent,West Ham United,Quarter-Finals,West Ham,fotmob_next_data,played
+2022-23,UEL,2023-04-13,Manchester United,Sevilla,,Man United,espn_core_api,played
+2022-23,UCL,2023-04-18,Chelsea,Real Madrid,,Chelsea,espn_core_api,played
+2022-23,UCL,2023-04-19,Bayern Munich,Manchester City,,Man City,espn_core_api,played
+2022-23,UECL,2023-04-20,West Ham United,Gent,Quarter-Finals,West Ham,fotmob_next_data,played
+2022-23,UEL,2023-04-20,Sevilla,Manchester United,,Man United,espn_core_api,played
+2022-23,UCL,2023-05-09,Real Madrid,Manchester City,,Man City,espn_core_api,played
+2022-23,UECL,2023-05-11,West Ham United,AZ Alkmaar,Semi-Finals,West Ham,fotmob_next_data,played
+2022-23,UCL,2023-05-17,Manchester City,Real Madrid,,Man City,espn_core_api,played
+2022-23,UECL,2023-05-18,AZ Alkmaar,West Ham United,Semi-Finals,West Ham,fotmob_next_data,played
+2022-23,UECL,2023-06-07,Fiorentina,West Ham United,Final,West Ham,fotmob_next_data,played
+2022-23,UCL,2023-06-10,Manchester City,Internazionale,,Man City,espn_core_api,played
+2023-24,UECL,2023-08-23,Hibernian,Aston Villa,play-off,Aston Villa,wikipedia+club/press,played
+2023-24,UECL,2023-08-31,Aston Villa,Hibernian,play-off,Aston Villa,wikipedia+club/press,played
+2023-24,UCL,2023-09-19,Manchester City,Red Star Belgrade,,Man City,espn_core_api,played
+2023-24,UCL,2023-09-19,AC Milan,Newcastle United,,Newcastle,espn_core_api,played
+2023-24,UCL,2023-09-20,Bayern Munich,Manchester United,,Man United,espn_core_api,played
+2023-24,UCL,2023-09-20,Arsenal,PSV Eindhoven,,Arsenal,espn_core_api,played
+2023-24,UECL,2023-09-21,Legia Warszawa,Aston Villa,league/group,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2023-09-21,Brighton & Hove Albion,AEK Athens,,Brighton,espn_core_api,played
+2023-24,UEL,2023-09-21,West Ham United,FK TSC,,West Ham,espn_core_api,played
+2023-24,UEL,2023-09-21,LASK Linz,Liverpool,,Liverpool,espn_core_api,played
+2023-24,UCL,2023-10-03,Manchester United,Galatasaray,,Man United,espn_core_api,played
+2023-24,UCL,2023-10-03,Lens,Arsenal,,Arsenal,espn_core_api,played
+2023-24,UCL,2023-10-04,Newcastle United,Paris Saint-Germain,,Newcastle,espn_core_api,played
+2023-24,UCL,2023-10-04,RB Leipzig,Manchester City,,Man City,espn_core_api,played
+2023-24,UECL,2023-10-05,Aston Villa,Zrinjski Mostar,league/group,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2023-10-05,Liverpool,Union St.-Gilloise,,Liverpool,espn_core_api,played
+2023-24,UEL,2023-10-05,Marseille,Brighton & Hove Albion,,Brighton,espn_core_api,played
+2023-24,UEL,2023-10-05,SC Freiburg,West Ham United,,West Ham,espn_core_api,played
+2023-24,UCL,2023-10-24,Manchester United,F.C. København,,Man United,espn_core_api,played
+2023-24,UCL,2023-10-24,Sevilla,Arsenal,,Arsenal,espn_core_api,played
+2023-24,UCL,2023-10-25,Newcastle United,Borussia Dortmund,,Newcastle,espn_core_api,played
+2023-24,UCL,2023-10-25,Young Boys,Manchester City,,Man City,espn_core_api,played
+2023-24,UECL,2023-10-26,AZ Alkmaar,Aston Villa,league/group,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2023-10-26,Liverpool,Toulouse,,Liverpool,espn_core_api,played
+2023-24,UEL,2023-10-26,Olympiacos,West Ham United,,West Ham,espn_core_api,played
+2023-24,UEL,2023-10-26,Brighton & Hove Albion,Ajax Amsterdam,,Brighton,espn_core_api,played
+2023-24,UCL,2023-11-07,Borussia Dortmund,Newcastle United,,Newcastle,espn_core_api,played
+2023-24,UCL,2023-11-07,Manchester City,Young Boys,,Man City,espn_core_api,played
+2023-24,UCL,2023-11-08,F.C. København,Manchester United,,Man United,espn_core_api,played
+2023-24,UCL,2023-11-08,Arsenal,Sevilla,,Arsenal,espn_core_api,played
+2023-24,UECL,2023-11-09,Aston Villa,AZ Alkmaar,league/group,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2023-11-09,Toulouse,Liverpool,,Liverpool,espn_core_api,played
+2023-24,UEL,2023-11-09,West Ham United,Olympiacos,,West Ham,espn_core_api,played
+2023-24,UEL,2023-11-09,Ajax Amsterdam,Brighton & Hove Albion,,Brighton,espn_core_api,played
+2023-24,UCL,2023-11-28,Paris Saint-Germain,Newcastle United,,Newcastle,espn_core_api,played
+2023-24,UCL,2023-11-28,Manchester City,RB Leipzig,,Man City,espn_core_api,played
+2023-24,UCL,2023-11-29,Galatasaray,Manchester United,,Man United,espn_core_api,played
+2023-24,UCL,2023-11-29,Arsenal,Lens,,Arsenal,espn_core_api,played
+2023-24,UECL,2023-11-30,Aston Villa,Legia Warszawa,league/group,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2023-11-30,AEK Athens,Brighton & Hove Albion,,Brighton,espn_core_api,played
+2023-24,UEL,2023-11-30,FK TSC,West Ham United,,West Ham,espn_core_api,played
+2023-24,UEL,2023-11-30,Liverpool,LASK Linz,,Liverpool,espn_core_api,played
+2023-24,UCL,2023-12-12,Manchester United,Bayern Munich,,Man United,espn_core_api,played
+2023-24,UCL,2023-12-12,PSV Eindhoven,Arsenal,,Arsenal,espn_core_api,played
+2023-24,UCL,2023-12-13,Red Star Belgrade,Manchester City,,Man City,espn_core_api,played
+2023-24,UCL,2023-12-13,Newcastle United,AC Milan,,Newcastle,espn_core_api,played
+2023-24,UECL,2023-12-14,Zrinjski Mostar,Aston Villa,league/group,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2023-12-14,Union St.-Gilloise,Liverpool,,Liverpool,espn_core_api,played
+2023-24,UEL,2023-12-14,West Ham United,SC Freiburg,,West Ham,espn_core_api,played
+2023-24,UEL,2023-12-14,Brighton & Hove Albion,Marseille,,Brighton,espn_core_api,played
+2023-24,UCL,2024-02-13,F.C. København,Manchester City,,Man City,espn_core_api,played
+2023-24,UCL,2024-02-21,FC Porto,Arsenal,,Arsenal,espn_core_api,played
+2023-24,UCL,2024-03-06,Manchester City,F.C. København,,Man City,espn_core_api,played
+2023-24,UECL,2024-03-07,Ajax,Aston Villa,Round of 16,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2024-03-07,AS Roma,Brighton & Hove Albion,,Brighton,espn_core_api,played
+2023-24,UEL,2024-03-07,SC Freiburg,West Ham United,,West Ham,espn_core_api,played
+2023-24,UEL,2024-03-07,Sparta Prague,Liverpool,,Liverpool,espn_core_api,played
+2023-24,UCL,2024-03-12,Arsenal,FC Porto,,Arsenal,espn_core_api,played
+2023-24,UECL,2024-03-14,Aston Villa,Ajax,Round of 16,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2024-03-14,West Ham United,SC Freiburg,,West Ham,espn_core_api,played
+2023-24,UEL,2024-03-14,Brighton & Hove Albion,AS Roma,,Brighton,espn_core_api,played
+2023-24,UEL,2024-03-14,Liverpool,Sparta Prague,,Liverpool,espn_core_api,played
+2023-24,UCL,2024-04-09,Real Madrid,Manchester City,,Man City,espn_core_api,played
+2023-24,UCL,2024-04-09,Arsenal,Bayern Munich,,Arsenal,espn_core_api,played
+2023-24,UECL,2024-04-11,Aston Villa,Lille,Quarter-Finals,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2024-04-11,Liverpool,Atalanta,,Liverpool,espn_core_api,played
+2023-24,UEL,2024-04-11,Bayer Leverkusen,West Ham United,,West Ham,espn_core_api,played
+2023-24,UCL,2024-04-17,Bayern Munich,Arsenal,,Arsenal,espn_core_api,played
+2023-24,UCL,2024-04-17,Manchester City,Real Madrid,,Man City,espn_core_api,played
+2023-24,UECL,2024-04-18,Lille,Aston Villa,Quarter-Finals,Aston Villa,fotmob_next_data,played
+2023-24,UEL,2024-04-18,Atalanta,Liverpool,,Liverpool,espn_core_api,played
+2023-24,UEL,2024-04-18,West Ham United,Bayer Leverkusen,,West Ham,espn_core_api,played
+2023-24,UECL,2024-05-02,Aston Villa,Olympiacos,Semi-Finals,Aston Villa,fotmob_next_data,played
+2023-24,UECL,2024-05-09,Olympiacos,Aston Villa,Semi-Finals,Aston Villa,fotmob_next_data,played
+2024-25,UECL,2024-08-22,Chelsea,Servette,play-off,Chelsea,wikipedia+club/press,played
+2024-25,UECL,2024-08-29,Servette,Chelsea,play-off,Chelsea,wikipedia+club/press,played
+2024-25,UCL,2024-09-17,AC Milan,Liverpool,,Liverpool,espn_core_api,played
+2024-25,UCL,2024-09-17,Young Boys,Aston Villa,,Aston Villa,espn_core_api,played
+2024-25,UCL,2024-09-18,Manchester City,Internazionale,,Man City,espn_core_api,played
+2024-25,UCL,2024-09-19,Atalanta,Arsenal,,Arsenal,espn_core_api,played
+2024-25,UEL,2024-09-25,Manchester United,FC Twente,,Man United,espn_core_api,played
+2024-25,UEL,2024-09-26,Tottenham Hotspur,FK Qarabag,,Tottenham,espn_core_api,played
+2024-25,UCL,2024-10-01,Slovan Bratislava,Manchester City,,Man City,espn_core_api,played
+2024-25,UCL,2024-10-01,Arsenal,Paris Saint-Germain,,Arsenal,espn_core_api,played
+2024-25,UCL,2024-10-02,Liverpool,Bologna,,Liverpool,espn_core_api,played
+2024-25,UCL,2024-10-02,Aston Villa,Bayern Munich,,Aston Villa,espn_core_api,played
+2024-25,UECL,2024-10-03,Chelsea,Gent,league/group,Chelsea,fotmob_next_data,played
+2024-25,UEL,2024-10-03,Ferencvaros,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2024-25,UEL,2024-10-03,FC Porto,Manchester United,,Man United,espn_core_api,played
+2024-25,UCL,2024-10-22,Aston Villa,Bologna,,Aston Villa,espn_core_api,played
+2024-25,UCL,2024-10-22,Arsenal,Shakhtar Donetsk,,Arsenal,espn_core_api,played
+2024-25,UCL,2024-10-23,Manchester City,Sparta Prague,,Man City,espn_core_api,played
+2024-25,UCL,2024-10-23,RB Leipzig,Liverpool,,Liverpool,espn_core_api,played
+2024-25,UECL,2024-10-24,Panathinaikos,Chelsea,league/group,Chelsea,fotmob_next_data,played
+2024-25,UEL,2024-10-24,Tottenham Hotspur,AZ Alkmaar,,Tottenham,espn_core_api,played
+2024-25,UEL,2024-10-24,Fenerbahce,Manchester United,,Man United,espn_core_api,played
+2024-25,UCL,2024-11-05,Sporting CP,Manchester City,,Man City,espn_core_api,played
+2024-25,UCL,2024-11-05,Liverpool,Bayer Leverkusen,,Liverpool,espn_core_api,played
+2024-25,UCL,2024-11-06,Club Brugge,Aston Villa,,Aston Villa,espn_core_api,played
+2024-25,UCL,2024-11-06,Internazionale,Arsenal,,Arsenal,espn_core_api,played
+2024-25,UECL,2024-11-07,Chelsea,FC Noah,league/group,Chelsea,fotmob_next_data,played
+2024-25,UEL,2024-11-07,Galatasaray,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2024-25,UEL,2024-11-07,Manchester United,PAOK,,Man United,espn_core_api,played
+2024-25,UCL,2024-11-26,Sporting CP,Arsenal,,Arsenal,espn_core_api,played
+2024-25,UCL,2024-11-26,Manchester City,Feyenoord Rotterdam,,Man City,espn_core_api,played
+2024-25,UCL,2024-11-27,Aston Villa,Juventus,,Aston Villa,espn_core_api,played
+2024-25,UCL,2024-11-27,Liverpool,Real Madrid,,Liverpool,espn_core_api,played
+2024-25,UECL,2024-11-28,FC Heidenheim,Chelsea,league/group,Chelsea,fotmob_next_data,played
+2024-25,UEL,2024-11-28,Tottenham Hotspur,AS Roma,,Tottenham,espn_core_api,played
+2024-25,UEL,2024-11-28,Manchester United,Bodo/Glimt,,Man United,espn_core_api,played
+2024-25,UCL,2024-12-10,RB Leipzig,Aston Villa,,Aston Villa,espn_core_api,played
+2024-25,UCL,2024-12-10,Girona,Liverpool,,Liverpool,espn_core_api,played
+2024-25,UCL,2024-12-11,Juventus,Manchester City,,Man City,espn_core_api,played
+2024-25,UCL,2024-12-11,Arsenal,AS Monaco,,Arsenal,espn_core_api,played
+2024-25,UECL,2024-12-12,FC Astana,Chelsea,league/group,Chelsea,fotmob_next_data,played
+2024-25,UEL,2024-12-12,Rangers,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2024-25,UEL,2024-12-12,Viktoria Plzen,Manchester United,,Man United,espn_core_api,played
+2024-25,UECL,2024-12-19,Chelsea,Shamrock Rovers,league/group,Chelsea,fotmob_next_data,played
+2024-25,UCL,2025-01-21,AS Monaco,Aston Villa,,Aston Villa,espn_core_api,played
+2024-25,UCL,2025-01-21,Liverpool,Lille,,Liverpool,espn_core_api,played
+2024-25,UCL,2025-01-22,Paris Saint-Germain,Manchester City,,Man City,espn_core_api,played
+2024-25,UCL,2025-01-22,Arsenal,Dinamo Zagreb,,Arsenal,espn_core_api,played
+2024-25,UEL,2025-01-23,Manchester United,Rangers,,Man United,espn_core_api,played
+2024-25,UEL,2025-01-23,TSG Hoffenheim,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2024-25,UCL,2025-01-29,Girona,Arsenal,,Arsenal,espn_core_api,played
+2024-25,UCL,2025-01-29,Manchester City,Club Brugge,,Man City,espn_core_api,played
+2024-25,UCL,2025-01-29,PSV Eindhoven,Liverpool,,Liverpool,espn_core_api,played
+2024-25,UCL,2025-01-29,Aston Villa,Celtic,,Aston Villa,espn_core_api,played
+2024-25,UEL,2025-01-30,Tottenham Hotspur,IF Elfsborg,,Tottenham,espn_core_api,played
+2024-25,UEL,2025-01-30,FCSB,Manchester United,,Man United,espn_core_api,played
+2024-25,UCL,2025-02-11,Manchester City,Real Madrid,,Man City,espn_core_api,played
+2024-25,UCL,2025-02-19,Real Madrid,Manchester City,,Man City,espn_core_api,played
+2024-25,UCL,2025-03-04,Club Brugge,Aston Villa,,Aston Villa,espn_core_api,played
+2024-25,UCL,2025-03-04,PSV Eindhoven,Arsenal,,Arsenal,espn_core_api,played
+2024-25,UCL,2025-03-05,Paris Saint-Germain,Liverpool,,Liverpool,espn_core_api,played
+2024-25,UECL,2025-03-06,FC København,Chelsea,Round of 16,Chelsea,fotmob_next_data,played
+2024-25,UEL,2025-03-06,Real Sociedad,Manchester United,,Man United,espn_core_api,played
+2024-25,UEL,2025-03-06,AZ Alkmaar,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2024-25,UCL,2025-03-11,Liverpool,Paris Saint-Germain,,Liverpool,espn_core_api,played
+2024-25,UCL,2025-03-12,Aston Villa,Club Brugge,,Aston Villa,espn_core_api,played
+2024-25,UCL,2025-03-12,Arsenal,PSV Eindhoven,,Arsenal,espn_core_api,played
+2024-25,UECL,2025-03-13,Chelsea,FC København,Round of 16,Chelsea,fotmob_next_data,played
+2024-25,UEL,2025-03-13,Manchester United,Real Sociedad,,Man United,espn_core_api,played
+2024-25,UEL,2025-03-13,Tottenham Hotspur,AZ Alkmaar,,Tottenham,espn_core_api,played
+2024-25,UCL,2025-04-08,Arsenal,Real Madrid,,Arsenal,espn_core_api,played
+2024-25,UCL,2025-04-09,Paris Saint-Germain,Aston Villa,,Aston Villa,espn_core_api,played
+2024-25,UECL,2025-04-10,Legia Warszawa,Chelsea,Quarter-Finals,Chelsea,fotmob_next_data,played
+2024-25,UEL,2025-04-10,Lyon,Manchester United,,Man United,espn_core_api,played
+2024-25,UEL,2025-04-10,Tottenham Hotspur,Eintracht Frankfurt,,Tottenham,espn_core_api,played
+2024-25,UCL,2025-04-15,Aston Villa,Paris Saint-Germain,,Aston Villa,espn_core_api,played
+2024-25,UCL,2025-04-16,Real Madrid,Arsenal,,Arsenal,espn_core_api,played
+2024-25,UECL,2025-04-17,Chelsea,Legia Warszawa,Quarter-Finals,Chelsea,fotmob_next_data,played
+2024-25,UEL,2025-04-17,Eintracht Frankfurt,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2024-25,UEL,2025-04-17,Manchester United,Lyon,,Man United,espn_core_api,played
+2024-25,UCL,2025-04-29,Arsenal,Paris Saint-Germain,,Arsenal,espn_core_api,played
+2024-25,UECL,2025-05-01,Djurgården,Chelsea,Semi-Finals,Chelsea,fotmob_next_data,played
+2024-25,UEL,2025-05-01,Athletic Club,Manchester United,,Man United,espn_core_api,played
+2024-25,UEL,2025-05-01,Tottenham Hotspur,Bodo/Glimt,,Tottenham,espn_core_api,played
+2024-25,UCL,2025-05-07,Paris Saint-Germain,Arsenal,,Arsenal,espn_core_api,played
+2024-25,UECL,2025-05-08,Chelsea,Djurgården,Semi-Finals,Chelsea,fotmob_next_data,played
+2024-25,UEL,2025-05-08,Manchester United,Athletic Club,,Man United,espn_core_api,played
+2024-25,UEL,2025-05-08,Bodo/Glimt,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2024-25,UEL,2025-05-21,Tottenham Hotspur,Manchester United,,Man United/Tottenham,espn_core_api,played
+2024-25,UECL,2025-05-28,Real Betis,Chelsea,Final,Chelsea,fotmob_next_data,played
+2025-26,UECL,2025-08-21,Crystal Palace,Fredrikstad,play-off,Crystal Palace,wikipedia+club/press,played
+2025-26,UECL,2025-08-28,Fredrikstad,Crystal Palace,play-off,Crystal Palace,wikipedia+club/press,played
+2025-26,UCL,2025-09-16,Tottenham Hotspur,Villarreal,,Tottenham,espn_core_api,played
+2025-26,UCL,2025-09-16,Athletic Club,Arsenal,,Arsenal,espn_core_api,played
+2025-26,UCL,2025-09-17,Bayern Munich,Chelsea,,Chelsea,espn_core_api,played
+2025-26,UCL,2025-09-17,Liverpool,Atlético Madrid,,Liverpool,espn_core_api,played
+2025-26,UCL,2025-09-18,Newcastle United,Barcelona,,Newcastle,espn_core_api,played
+2025-26,UCL,2025-09-18,Manchester City,Napoli,,Man City,espn_core_api,played
+2025-26,UEL,2025-09-24,Real Betis,Nottingham Forest,,Nott'm Forest,espn_core_api,played
+2025-26,UEL,2025-09-25,Aston Villa,Bologna,,Aston Villa,espn_core_api,played
+2025-26,UCL,2025-09-30,Bodo/Glimt,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2025-26,UCL,2025-09-30,Galatasaray,Liverpool,,Liverpool,espn_core_api,played
+2025-26,UCL,2025-09-30,Chelsea,Benfica,,Chelsea,espn_core_api,played
+2025-26,UCL,2025-10-01,AS Monaco,Manchester City,,Man City,espn_core_api,played
+2025-26,UCL,2025-10-01,Arsenal,Olympiacos,,Arsenal,espn_core_api,played
+2025-26,UCL,2025-10-01,Union St.-Gilloise,Newcastle United,,Newcastle,espn_core_api,played
+2025-26,UECL,2025-10-02,Dynamo Kyiv,Crystal Palace,league/group,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2025-10-02,Feyenoord Rotterdam,Aston Villa,,Aston Villa,espn_core_api,played
+2025-26,UEL,2025-10-02,Nottingham Forest,FC Midtjylland,,Nott'm Forest,espn_core_api,played
+2025-26,UCL,2025-10-21,Villarreal,Manchester City,,Man City,espn_core_api,played
+2025-26,UCL,2025-10-21,Newcastle United,Benfica,,Newcastle,espn_core_api,played
+2025-26,UCL,2025-10-21,Arsenal,Atlético Madrid,,Arsenal,espn_core_api,played
+2025-26,UCL,2025-10-22,Eintracht Frankfurt,Liverpool,,Liverpool,espn_core_api,played
+2025-26,UCL,2025-10-22,Chelsea,Ajax Amsterdam,,Chelsea,espn_core_api,played
+2025-26,UCL,2025-10-22,AS Monaco,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2025-26,UECL,2025-10-23,Crystal Palace,AEK Larnaca,league/group,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2025-10-23,Nottingham Forest,FC Porto,,Nott'm Forest,espn_core_api,played
+2025-26,UEL,2025-10-23,Go Ahead Eagles,Aston Villa,,Aston Villa,espn_core_api,played
+2025-26,UCL,2025-11-04,Slavia Prague,Arsenal,,Arsenal,espn_core_api,played
+2025-26,UCL,2025-11-04,Liverpool,Real Madrid,,Liverpool,espn_core_api,played
+2025-26,UCL,2025-11-04,Tottenham Hotspur,F.C. København,,Tottenham,espn_core_api,played
+2025-26,UCL,2025-11-05,Newcastle United,Athletic Club,,Newcastle,espn_core_api,played
+2025-26,UCL,2025-11-05,Manchester City,Borussia Dortmund,,Man City,espn_core_api,played
+2025-26,UCL,2025-11-05,FK Qarabag,Chelsea,,Chelsea,espn_core_api,played
+2025-26,UECL,2025-11-06,Crystal Palace,AZ Alkmaar,league/group,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2025-11-06,SK Sturm Graz,Nottingham Forest,,Nott'm Forest,espn_core_api,played
+2025-26,UEL,2025-11-06,Aston Villa,Maccabi Tel-Aviv,,Aston Villa,espn_core_api,played
+2025-26,UCL,2025-11-25,Marseille,Newcastle United,,Newcastle,espn_core_api,played
+2025-26,UCL,2025-11-25,Manchester City,Bayer Leverkusen,,Man City,espn_core_api,played
+2025-26,UCL,2025-11-25,Chelsea,Barcelona,,Chelsea,espn_core_api,played
+2025-26,UCL,2025-11-26,Liverpool,PSV Eindhoven,,Liverpool,espn_core_api,played
+2025-26,UCL,2025-11-26,Paris Saint-Germain,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2025-26,UCL,2025-11-26,Arsenal,Bayern Munich,,Arsenal,espn_core_api,played
+2025-26,UECL,2025-11-27,Strasbourg,Crystal Palace,league/group,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2025-11-27,Aston Villa,Young Boys,,Aston Villa,espn_core_api,played
+2025-26,UEL,2025-11-27,Nottingham Forest,Malmö FF,,Nott'm Forest,espn_core_api,played
+2025-26,UCL,2025-12-09,Tottenham Hotspur,Slavia Prague,,Tottenham,espn_core_api,played
+2025-26,UCL,2025-12-09,Atalanta,Chelsea,,Chelsea,espn_core_api,played
+2025-26,UCL,2025-12-09,Internazionale,Liverpool,,Liverpool,espn_core_api,played
+2025-26,UCL,2025-12-10,Real Madrid,Manchester City,,Man City,espn_core_api,played
+2025-26,UCL,2025-12-10,Bayer Leverkusen,Newcastle United,,Newcastle,espn_core_api,played
+2025-26,UCL,2025-12-10,Club Brugge,Arsenal,,Arsenal,espn_core_api,played
+2025-26,UECL,2025-12-11,Shelbourne,Crystal Palace,league/group,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2025-12-11,FC Utrecht,Nottingham Forest,,Nott'm Forest,espn_core_api,played
+2025-26,UEL,2025-12-11,FC Basel,Aston Villa,,Aston Villa,espn_core_api,played
+2025-26,UECL,2025-12-18,Crystal Palace,KuPS,league/group,Crystal Palace,fotmob_next_data,played
+2025-26,UCL,2026-01-20,Internazionale,Arsenal,,Arsenal,espn_core_api,played
+2025-26,UCL,2026-01-20,Bodo/Glimt,Manchester City,,Man City,espn_core_api,played
+2025-26,UCL,2026-01-20,Tottenham Hotspur,Borussia Dortmund,,Tottenham,espn_core_api,played
+2025-26,UCL,2026-01-21,Newcastle United,PSV Eindhoven,,Newcastle,espn_core_api,played
+2025-26,UCL,2026-01-21,Chelsea,Pafos,,Chelsea,espn_core_api,played
+2025-26,UCL,2026-01-21,Marseille,Liverpool,,Liverpool,espn_core_api,played
+2025-26,UEL,2026-01-22,Braga,Nottingham Forest,,Nott'm Forest,espn_core_api,played
+2025-26,UEL,2026-01-22,Fenerbahce,Aston Villa,,Aston Villa,espn_core_api,played
+2025-26,UCL,2026-01-28,Napoli,Chelsea,,Chelsea,espn_core_api,played
+2025-26,UCL,2026-01-28,Manchester City,Galatasaray,,Man City,espn_core_api,played
+2025-26,UCL,2026-01-28,Liverpool,FK Qarabag,,Liverpool,espn_core_api,played
+2025-26,UCL,2026-01-28,Arsenal,Kairat Almaty,,Arsenal,espn_core_api,played
+2025-26,UCL,2026-01-28,Paris Saint-Germain,Newcastle United,,Newcastle,espn_core_api,played
+2025-26,UCL,2026-01-28,Eintracht Frankfurt,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2025-26,UEL,2026-01-29,Nottingham Forest,Ferencvaros,,Nott'm Forest,espn_core_api,played
+2025-26,UEL,2026-01-29,Aston Villa,RB Salzburg,,Aston Villa,espn_core_api,played
+2025-26,UCL,2026-02-18,FK Qarabag,Newcastle United,,Newcastle,espn_core_api,played
+2025-26,UECL,2026-02-19,Zrinjski Mostar,Crystal Palace,playoff,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2026-02-19,Fenerbahce,Nottingham Forest,,Nott'm Forest,espn_core_api,played
+2025-26,UCL,2026-02-24,Newcastle United,FK Qarabag,,Newcastle,espn_core_api,played
+2025-26,UECL,2026-02-26,Crystal Palace,Zrinjski Mostar,playoff,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2026-02-26,Nottingham Forest,Fenerbahce,,Nott'm Forest,espn_core_api,played
+2025-26,UCL,2026-03-10,Atlético Madrid,Tottenham Hotspur,,Tottenham,espn_core_api,played
+2025-26,UCL,2026-03-10,Galatasaray,Liverpool,,Liverpool,espn_core_api,played
+2025-26,UCL,2026-03-10,Newcastle United,Barcelona,,Newcastle,espn_core_api,played
+2025-26,UCL,2026-03-11,Real Madrid,Manchester City,,Man City,espn_core_api,played
+2025-26,UCL,2026-03-11,Paris Saint-Germain,Chelsea,,Chelsea,espn_core_api,played
+2025-26,UCL,2026-03-11,Bayer Leverkusen,Arsenal,,Arsenal,espn_core_api,played
+2025-26,UECL,2026-03-12,Crystal Palace,AEK Larnaca,Round of 16,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2026-03-12,Nottingham Forest,FC Midtjylland,,Nott'm Forest,espn_core_api,played
+2025-26,UEL,2026-03-12,Lille,Aston Villa,,Aston Villa,espn_core_api,played
+2025-26,UCL,2026-03-17,Arsenal,Bayer Leverkusen,,Arsenal,espn_core_api,played
+2025-26,UCL,2026-03-17,Chelsea,Paris Saint-Germain,,Chelsea,espn_core_api,played
+2025-26,UCL,2026-03-17,Manchester City,Real Madrid,,Man City,espn_core_api,played
+2025-26,UCL,2026-03-18,Liverpool,Galatasaray,,Liverpool,espn_core_api,played
+2025-26,UCL,2026-03-18,Tottenham Hotspur,Atlético Madrid,,Tottenham,espn_core_api,played
+2025-26,UCL,2026-03-18,Barcelona,Newcastle United,,Newcastle,espn_core_api,played
+2025-26,UECL,2026-03-19,AEK Larnaca,Crystal Palace,Round of 16,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2026-03-19,Aston Villa,Lille,,Aston Villa,espn_core_api,played
+2025-26,UEL,2026-03-19,FC Midtjylland,Nottingham Forest,,Nott'm Forest,espn_core_api,played
+2025-26,UCL,2026-04-07,Sporting CP,Arsenal,,Arsenal,espn_core_api,played
+2025-26,UCL,2026-04-08,Paris Saint-Germain,Liverpool,,Liverpool,espn_core_api,played
+2025-26,UECL,2026-04-09,Crystal Palace,Fiorentina,Quarter-Finals,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2026-04-09,Bologna,Aston Villa,,Aston Villa,espn_core_api,played
+2025-26,UEL,2026-04-09,FC Porto,Nottingham Forest,,Nott'm Forest,espn_core_api,played
+2025-26,UCL,2026-04-14,Liverpool,Paris Saint-Germain,,Liverpool,espn_core_api,played
+2025-26,UCL,2026-04-15,Arsenal,Sporting CP,,Arsenal,espn_core_api,played
+2025-26,UECL,2026-04-16,Fiorentina,Crystal Palace,Quarter-Finals,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2026-04-16,Aston Villa,Bologna,,Aston Villa,espn_core_api,played
+2025-26,UEL,2026-04-16,Nottingham Forest,FC Porto,,Nott'm Forest,espn_core_api,played
+2025-26,UCL,2026-04-29,Atlético Madrid,Arsenal,,Arsenal,espn_core_api,played
+2025-26,UECL,2026-04-30,Shakhtar Donetsk,Crystal Palace,Semi-Finals,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2026-04-30,Nottingham Forest,Aston Villa,,Aston Villa/Nott'm Forest,espn_core_api,played
+2025-26,UCL,2026-05-05,Arsenal,Atlético Madrid,,Arsenal,espn_core_api,played
+2025-26,UECL,2026-05-07,Crystal Palace,Shakhtar Donetsk,Semi-Finals,Crystal Palace,fotmob_next_data,played
+2025-26,UEL,2026-05-07,Aston Villa,Nottingham Forest,,Aston Villa/Nott'm Forest,espn_core_api,played
+2025-26,UEL,2026-05-20,SC Freiburg,Aston Villa,,Aston Villa,espn_core_api,played
+2025-26,UECL,2026-05-27,Crystal Palace,Rayo Vallecano,Final,Crystal Palace,fotmob_next_data,played
+2025-26,UCL,2026-05-30,Paris Saint-Germain,Arsenal,,Arsenal,espn_core_api,played
+2026-27,UECL,2026-08-20,Tromsø,Brighton & Hove Albion,play-off,Brighton,wikipedia+club/press,played
+2026-27,UECL,2026-08-27,Brighton & Hove Albion,Tromsø,play-off,Brighton,wikipedia+club/press,played
+2026-27,UCL,2026-09-08,FC Porto,Manchester City,,Man City,espn_core_api,played
+2026-27,UCL,2026-09-08,Club Brugge,Aston Villa,,Aston Villa,espn_core_api,played
+2026-27,UCL,2026-09-09,Liverpool,Atlético Madrid,,Liverpool,espn_core_api,played
+2026-27,UCL,2026-09-09,Napoli,Arsenal,,Arsenal,espn_core_api,played
+2026-27,UCL,2026-09-10,Manchester United,Sabah FK,,Man United,espn_core_api,played
+2026-27,UEL,2026-09-16,Sunderland,AZ Alkmaar,,Sunderland,espn_core_api,played
+2026-27,UEL,2026-09-17,Crystal Palace,Lech Poznan,,Crystal Palace,espn_core_api,played
+2026-27,UEL,2026-09-17,Real Sociedad,AFC Bournemouth,,Bournemouth,espn_core_api,played
+2026-27,UCL,2026-10-13,Atlético Madrid,Manchester United,,Man United,espn_core_api,played
+2026-27,UCL,2026-10-13,Arsenal,Lille,,Arsenal,espn_core_api,played
+2026-27,UCL,2026-10-14,LASK Linz,Liverpool,,Liverpool,espn_core_api,played
+2026-27,UCL,2026-10-14,Manchester City,Paris Saint-Germain,,Man City,espn_core_api,played
+2026-27,UCL,2026-10-14,Aston Villa,Fenerbahce,,Aston Villa,espn_core_api,played
+2026-27,UECL,2026-10-15,Brighton & Hove Albion,FK Kauno Žalgiris,league/group,Brighton,fotmob_next_data,played
+2026-27,UEL,2026-10-15,Lyon,Crystal Palace,,Crystal Palace,espn_core_api,played
+2026-27,UEL,2026-10-15,AFC Bournemouth,SK Sturm Graz,,Bournemouth,espn_core_api,played
+2026-27,UEL,2026-10-15,Torreense,Sunderland,,Sunderland,espn_core_api,played
+2026-27,UCL,2026-10-20,Manchester City,AEK Athens,,Man City,espn_core_api,played
+2026-27,UCL,2026-10-20,Liverpool,Villarreal,,Liverpool,espn_core_api,played
+2026-27,UCL,2026-10-21,Como,Manchester United,,Man United,espn_core_api,played
+2026-27,UCL,2026-10-21,Bayern Munich,Arsenal,,Arsenal,espn_core_api,played
+2026-27,UCL,2026-10-21,Aston Villa,Viking FK,,Aston Villa,espn_core_api,played
+2026-27,UECL,2026-10-22,Jablonec,Brighton & Hove Albion,league/group,Brighton,fotmob_next_data,played
+2026-27,UEL,2026-10-22,Lech Poznan,Sunderland,,Sunderland,espn_core_api,played
+2026-27,UEL,2026-10-22,Besiktas,Crystal Palace,,Crystal Palace,espn_core_api,played
+2026-27,UEL,2026-10-22,AFC Bournemouth,AC Milan,,Bournemouth,espn_core_api,played
+2026-27,UCL,2026-11-03,Barcelona,Aston Villa,,Aston Villa,espn_core_api,played
+2026-27,UCL,2026-11-03,Manchester United,AS Roma,,Man United,espn_core_api,played
+2026-27,UCL,2026-11-04,RB Leipzig,Manchester City,,Man City,espn_core_api,played
+2026-27,UCL,2026-11-04,Slavia Prague,Arsenal,,Arsenal,espn_core_api,played
+2026-27,UCL,2026-11-04,Fenerbahce,Liverpool,,Liverpool,espn_core_api,played
+2026-27,UECL,2026-11-05,Getafe,Brighton & Hove Albion,league/group,Brighton,fotmob_next_data,played
+2026-27,UEL,2026-11-05,Sparta Prague,AFC Bournemouth,,Bournemouth,espn_core_api,played
+2026-27,UEL,2026-11-05,Crystal Palace,TSG Hoffenheim,,Crystal Palace,espn_core_api,played
+2026-27,UEL,2026-11-05,Sunderland,Dinamo Zagreb,,Sunderland,espn_core_api,played
+2026-27,UCL,2026-11-24,Manchester City,Napoli,,Man City,espn_core_api,scheduled
+2026-27,UCL,2026-11-24,Galatasaray,Aston Villa,,Aston Villa,espn_core_api,scheduled
+2026-27,UCL,2026-11-24,Arsenal,Borussia Dortmund,,Arsenal,espn_core_api,scheduled
+2026-27,UCL,2026-11-25,Sporting CP,Manchester United,,Man United,espn_core_api,scheduled
+2026-27,UCL,2026-11-25,Club Brugge,Liverpool,,Liverpool,espn_core_api,scheduled
+2026-27,UECL,2026-11-26,Brighton & Hove Albion,Universitatea Craiova,league/group,Brighton,fotmob_next_data,scheduled
+2026-27,UEL,2026-11-26,Celta Vigo,AFC Bournemouth,,Bournemouth,espn_core_api,scheduled
+2026-27,UEL,2026-11-26,Crystal Palace,Real Sociedad,,Crystal Palace,espn_core_api,scheduled
+2026-27,UEL,2026-11-26,Sunderland,Jagiellonia Bialystok,,Sunderland,espn_core_api,scheduled
+2026-27,UCL,2026-12-08,Manchester United,RB Leipzig,,Man United,espn_core_api,scheduled
+2026-27,UCL,2026-12-08,Barcelona,Manchester City,,Man City,espn_core_api,scheduled
+2026-27,UCL,2026-12-08,Aston Villa,Paris Saint-Germain,,Aston Villa,espn_core_api,scheduled
+2026-27,UCL,2026-12-09,Liverpool,FC Porto,,Liverpool,espn_core_api,scheduled
+2026-27,UCL,2026-12-09,Arsenal,Real Madrid,,Arsenal,espn_core_api,scheduled
+2026-27,UECL,2026-12-10,Brighton & Hove Albion,Monaco,league/group,Brighton,fotmob_next_data,scheduled
+2026-27,UEL,2026-12-10,Jagiellonia Bialystok,Crystal Palace,,Crystal Palace,espn_core_api,scheduled
+2026-27,UEL,2026-12-10,AFC Bournemouth,Viktoria Plzen,,Bournemouth,espn_core_api,scheduled
+2026-27,UEL,2026-12-10,AC Milan,Sunderland,,Sunderland,espn_core_api,scheduled
+2026-27,UECL,2026-12-17,Panathinaikos,Brighton & Hove Albion,league/group,Brighton,fotmob_next_data,scheduled
+2026-27,UCL,2027-01-19,Internazionale,Liverpool,,Liverpool,espn_core_api,scheduled
+2026-27,UCL,2027-01-19,Aston Villa,Borussia Dortmund,,Aston Villa,espn_core_api,scheduled
+2026-27,UCL,2027-01-20,Lens,Manchester City,,Man City,espn_core_api,scheduled
+2026-27,UCL,2027-01-20,Manchester United,Bayern Munich,,Man United,espn_core_api,scheduled
+2026-27,UCL,2027-01-20,Real Betis,Arsenal,,Arsenal,espn_core_api,scheduled
+2026-27,UEL,2027-01-21,Lillestrom,AFC Bournemouth,,Bournemouth,espn_core_api,scheduled
+2026-27,UEL,2027-01-21,Crystal Palace,Sparta Prague,,Crystal Palace,espn_core_api,scheduled
+2026-27,UEL,2027-01-21,Anderlecht,Sunderland,,Sunderland,espn_core_api,scheduled
+2026-27,UCL,2027-01-27,Liverpool,Lens,,Liverpool,espn_core_api,scheduled
+2026-27,UCL,2027-01-27,Manchester City,Sporting CP,,Man City,espn_core_api,scheduled
+2026-27,UCL,2027-01-27,Villarreal,Manchester United,,Man United,espn_core_api,scheduled
+2026-27,UCL,2027-01-27,Arsenal,Sabah FK,,Arsenal,espn_core_api,scheduled
+2026-27,UCL,2027-01-27,Slavia Prague,Aston Villa,,Aston Villa,espn_core_api,scheduled
+2026-27,UEL,2027-01-28,Sunderland,Levski Sofia,,Sunderland,espn_core_api,scheduled
+2026-27,UEL,2027-01-28,AFC Bournemouth,Hapoel Be'er,,Bournemouth,espn_core_api,scheduled
+2026-27,UEL,2027-01-28,RB Salzburg,Crystal Palace,,Crystal Palace,espn_core_api,scheduled

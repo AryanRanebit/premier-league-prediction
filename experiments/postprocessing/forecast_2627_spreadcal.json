@@ -1,0 +1,339 @@
+{
+ "method": "strength stretch (one global G on goal supremacy, model's own base strengths) solved to 2025-26 within-season points spread 15.4, then draw-cell factor re-solved to 27.4% season draw rate; post-processing, nets unchanged, no per-club edits, 4000 sims rng 42",
+ "G": 0.255126953125,
+ "lambda": 1.386331932601943,
+ "targets": {
+  "spread": 15.4,
+  "draw_rate": 0.2736842105263158
+ },
+ "before": {
+  "rank_mean_pts": [
+   80.1,
+   74.8,
+   70.6,
+   66.8,
+   63.7,
+   60.9,
+   58.3,
+   55.9,
+   53.7,
+   51.8,
+   49.9,
+   48.2,
+   46.5,
+   44.9,
+   43.1,
+   41.2,
+   39.2,
+   36.8,
+   33.9,
+   29.4
+  ],
+  "champion_pts_mean": 80.1,
+  "total_pts": 1050.0,
+  "within_spread": 13.8,
+  "rank_spread": 13.5,
+  "club": {
+   "Arsenal": {
+    "exp_pos": 2.28,
+    "exp_pts": 75.3
+   },
+   "Aston Villa": {
+    "exp_pos": 13.98,
+    "exp_pts": 44.6
+   },
+   "Bournemouth": {
+    "exp_pos": 5.36,
+    "exp_pts": 63.4
+   },
+   "Brentford": {
+    "exp_pos": 12.55,
+    "exp_pts": 47.1
+   },
+   "Brighton": {
+    "exp_pos": 2.3,
+    "exp_pts": 74.4
+   },
+   "Chelsea": {
+    "exp_pos": 5.43,
+    "exp_pts": 63.3
+   },
+   "Coventry": {
+    "exp_pos": 17.04,
+    "exp_pts": 37.8
+   },
+   "Crystal Palace": {
+    "exp_pos": 18.77,
+    "exp_pts": 32.6
+   },
+   "Everton": {
+    "exp_pos": 9.78,
+    "exp_pts": 53.0
+   },
+   "Fulham": {
+    "exp_pos": 11.6,
+    "exp_pts": 49.1
+   },
+   "Hull": {
+    "exp_pos": 16.27,
+    "exp_pts": 39.5
+   },
+   "Ipswich": {
+    "exp_pos": 15.03,
+    "exp_pts": 42.5
+   },
+   "Leeds": {
+    "exp_pos": 10.96,
+    "exp_pts": 50.4
+   },
+   "Liverpool": {
+    "exp_pos": 6.26,
+    "exp_pts": 61.2
+   },
+   "Man City": {
+    "exp_pos": 2.93,
+    "exp_pts": 71.9
+   },
+   "Man United": {
+    "exp_pos": 10.31,
+    "exp_pts": 51.7
+   },
+   "Newcastle": {
+    "exp_pos": 14.32,
+    "exp_pts": 43.9
+   },
+   "Nott'm Forest": {
+    "exp_pos": 11.07,
+    "exp_pts": 50.1
+   },
+   "Sunderland": {
+    "exp_pos": 16.35,
+    "exp_pts": 39.6
+   },
+   "Tottenham": {
+    "exp_pos": 7.41,
+    "exp_pts": 58.0
+   }
+  }
+ },
+ "draw_only": {
+  "rank_mean_pts": [
+   78.7,
+   73.5,
+   69.4,
+   65.7,
+   62.6,
+   59.8,
+   57.3,
+   55.0,
+   52.9,
+   51.1,
+   49.3,
+   47.6,
+   46.0,
+   44.3,
+   42.6,
+   40.9,
+   39.0,
+   36.7,
+   34.0,
+   29.5
+  ],
+  "champion_pts_mean": 78.7,
+  "total_pts": 1036.0,
+  "within_spread": 13.3,
+  "rank_spread": 13.1,
+  "club": {
+   "Arsenal": {
+    "exp_pos": 2.21,
+    "exp_pts": 74.2
+   },
+   "Aston Villa": {
+    "exp_pos": 13.88,
+    "exp_pts": 44.4
+   },
+   "Bournemouth": {
+    "exp_pos": 5.45,
+    "exp_pts": 62.2
+   },
+   "Brentford": {
+    "exp_pos": 12.48,
+    "exp_pts": 46.8
+   },
+   "Brighton": {
+    "exp_pos": 2.31,
+    "exp_pts": 73.1
+   },
+   "Chelsea": {
+    "exp_pos": 5.47,
+    "exp_pts": 62.1
+   },
+   "Coventry": {
+    "exp_pos": 17.06,
+    "exp_pts": 37.6
+   },
+   "Crystal Palace": {
+    "exp_pos": 18.79,
+    "exp_pts": 32.7
+   },
+   "Everton": {
+    "exp_pos": 9.71,
+    "exp_pts": 52.4
+   },
+   "Fulham": {
+    "exp_pos": 11.57,
+    "exp_pts": 48.5
+   },
+   "Hull": {
+    "exp_pos": 16.19,
+    "exp_pts": 39.5
+   },
+   "Ipswich": {
+    "exp_pos": 14.99,
+    "exp_pts": 42.1
+   },
+   "Leeds": {
+    "exp_pos": 10.94,
+    "exp_pts": 49.8
+   },
+   "Liverpool": {
+    "exp_pos": 6.24,
+    "exp_pts": 60.2
+   },
+   "Man City": {
+    "exp_pos": 2.91,
+    "exp_pts": 70.7
+   },
+   "Man United": {
+    "exp_pos": 10.46,
+    "exp_pts": 50.7
+   },
+   "Newcastle": {
+    "exp_pos": 14.29,
+    "exp_pts": 43.5
+   },
+   "Nott'm Forest": {
+    "exp_pos": 11.21,
+    "exp_pts": 49.3
+   },
+   "Sunderland": {
+    "exp_pos": 16.35,
+    "exp_pts": 39.3
+   },
+   "Tottenham": {
+    "exp_pos": 7.51,
+    "exp_pts": 56.9
+   }
+  }
+ },
+ "combined": {
+  "rank_mean_pts": [
+   83.3,
+   77.9,
+   73.4,
+   68.6,
+   64.7,
+   61.2,
+   57.9,
+   55.0,
+   52.5,
+   50.3,
+   48.3,
+   46.4,
+   44.5,
+   42.7,
+   40.9,
+   38.9,
+   36.8,
+   34.4,
+   31.5,
+   26.9
+  ],
+  "champion_pts_mean": 83.3,
+  "total_pts": 1036.0,
+  "within_spread": 15.6,
+  "rank_spread": 15.4,
+  "club": {
+   "Arsenal": {
+    "exp_pos": 2.0,
+    "exp_pts": 79.3
+   },
+   "Aston Villa": {
+    "exp_pos": 13.96,
+    "exp_pts": 42.8
+   },
+   "Bournemouth": {
+    "exp_pos": 5.12,
+    "exp_pts": 64.8
+   },
+   "Brentford": {
+    "exp_pos": 12.4,
+    "exp_pts": 45.7
+   },
+   "Brighton": {
+    "exp_pos": 2.1,
+    "exp_pts": 78.0
+   },
+   "Chelsea": {
+    "exp_pos": 5.09,
+    "exp_pts": 65.0
+   },
+   "Coventry": {
+    "exp_pos": 17.44,
+    "exp_pts": 34.7
+   },
+   "Crystal Palace": {
+    "exp_pos": 19.07,
+    "exp_pts": 29.4
+   },
+   "Everton": {
+    "exp_pos": 9.58,
+    "exp_pts": 52.1
+   },
+   "Fulham": {
+    "exp_pos": 11.81,
+    "exp_pts": 46.9
+   },
+   "Hull": {
+    "exp_pos": 16.6,
+    "exp_pts": 36.7
+   },
+   "Ipswich": {
+    "exp_pos": 15.29,
+    "exp_pts": 39.9
+   },
+   "Leeds": {
+    "exp_pos": 10.81,
+    "exp_pts": 49.2
+   },
+   "Liverpool": {
+    "exp_pos": 5.9,
+    "exp_pts": 62.4
+   },
+   "Man City": {
+    "exp_pos": 2.68,
+    "exp_pts": 75.2
+   },
+   "Man United": {
+    "exp_pos": 10.33,
+    "exp_pts": 50.2
+   },
+   "Newcastle": {
+    "exp_pos": 14.64,
+    "exp_pts": 41.3
+   },
+   "Nott'm Forest": {
+    "exp_pos": 11.23,
+    "exp_pts": 48.3
+   },
+   "Sunderland": {
+    "exp_pos": 16.53,
+    "exp_pts": 37.0
+   },
+   "Tottenham": {
+    "exp_pos": 7.41,
+    "exp_pts": 57.5
+   }
+  }
+ }
+}
