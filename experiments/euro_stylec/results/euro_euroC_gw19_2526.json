@@ -1,0 +1,19 @@
+{
+ "season": "2526",
+ "mode": "euroC",
+ "cutoff": "2026-01-01",
+ "arm": "B_bestckpt80_only",
+ "highrec_coverage": "17/20",
+ "best_val_epochs": [
+  7,
+  4,
+  5,
+  5,
+  6
+ ],
+ "arm_B_bestckpt80": {
+  "mae_big6": 1.8347916666666668,
+  "mae_all": 2.0959250000000003,
+  "score_nll": 2.924753434359988
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "season": "2223",
+ "mode": "shortxg",
+ "cutoff": "2023-01-05",
+ "arm": "B_bestckpt80_only",
+ "train_from": "2020-08-01",
+ "train_n": 936,
+ "best_val_epochs": [
+  18,
+  11,
+  13,
+  13,
+  12
+ ],
+ "arm_B_bestckpt80": {
+  "mae_big6": 0.8939166666666668,
+  "mae_all": 1.6662,
+  "score_nll": 2.953289873739891
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "season": "2122",
+ "mode": "rich",
+ "cutoff": "2021-12-27",
+ "arm": "B_bestckpt80_only",
+ "highrec_coverage": null,
+ "best_val_epochs": [
+  6,
+  7,
+  8,
+  8,
+  7
+ ],
+ "arm_B_bestckpt80": {
+  "mae_big6": 0.9141250000000002,
+  "mae_all": 1.725425,
+  "score_nll": 3.0215184802625488
+ }
+}

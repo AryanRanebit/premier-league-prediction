@@ -1,0 +1,5 @@
+{"season": "2122", "cutoff": "2021-11-01", "mae_all": 1.65, "mae_big6": 0.88, "champ_pred": "Man City", "champ_actual": "Man City", "champ_hit": true, "champ_in_pred_top3": true, "top4_overlap": 3}
+{"season": "2223", "cutoff": "2022-10-19", "mae_all": 3.78, "mae_big6": 3.0, "champ_pred": "Man City", "champ_actual": "Man City", "champ_hit": true, "champ_in_pred_top3": true, "top4_overlap": 2}
+{"season": "2324", "cutoff": "2023-10-29", "mae_all": 1.89, "mae_big6": 1.14, "champ_pred": "Man City", "champ_actual": "Man City", "champ_hit": true, "champ_in_pred_top3": true, "top4_overlap": 3}
+{"season": "2425", "cutoff": "2024-11-04", "mae_all": 2.62, "mae_big6": 3.74, "champ_pred": "Man City", "champ_actual": "Liverpool", "champ_hit": false, "champ_in_pred_top3": true, "top4_overlap": 4}
+{"season": "2526", "cutoff": "2025-11-03", "mae_all": 2.82, "mae_big6": 3.7, "champ_pred": "Arsenal", "champ_actual": "Arsenal", "champ_hit": true, "champ_in_pred_top3": true, "top4_overlap": 2}

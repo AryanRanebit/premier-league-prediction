@@ -1,0 +1,19 @@
+{
+ "season": "2223",
+ "half_life_days": 240.0,
+ "cutoff": "2023-01-05",
+ "arm": "B_bestckpt80_only",
+ "features": "rich control (no euro/highrec)",
+ "best_val_epochs": [
+  5,
+  5,
+  6,
+  4,
+  5
+ ],
+ "arm_B_bestckpt80": {
+  "mae_big6": 1.0117083333333332,
+  "mae_all": 1.6995749999999994,
+  "score_nll": 2.9979044554099774
+ }
+}

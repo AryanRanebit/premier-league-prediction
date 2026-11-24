@@ -1,0 +1,24 @@
+{
+ "season": "2223",
+ "variant": "ctx",
+ "cutoff": "2023-01-05",
+ "matches_in_cut": 176,
+ "n_eval": 204,
+ "best_val_epochs": [
+  5,
+  4,
+  4,
+  5,
+  5
+ ],
+ "arm_A_epoch250": {
+  "mae_big6": 0.9049583333333331,
+  "mae_all": 1.7262250000000001,
+  "score_nll": 3.8904442266589
+ },
+ "arm_B_bestckpt80": {
+  "mae_big6": 1.1383333333333332,
+  "mae_all": 1.7766000000000002,
+  "score_nll": 2.988626783475861
+ }
+}

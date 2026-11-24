@@ -1,0 +1,136 @@
+{
+ "metrics": {
+  "n": 100,
+  "acc_1x2": 0.44,
+  "logloss_1x2": 1.174954883587686,
+  "score_nll": 4.858830535140644,
+  "exact_score_hits": 5,
+  "brier": 0.7049569768882944
+ },
+ "table": {
+  "pos_mae": 4.764275,
+  "pts_mae": 4.067475,
+  "per_club": {
+   "Arsenal": {
+    "exp_pos": 3.1,
+    "act_pos": 1,
+    "exp_pts": 21.4,
+    "act_pts": 27
+   },
+   "Aston Villa": {
+    "exp_pos": 14.0,
+    "act_pos": 10,
+    "exp_pts": 10.7,
+    "act_pts": 13
+   },
+   "Bournemouth": {
+    "exp_pos": 7.4,
+    "act_pos": 7,
+    "exp_pts": 16.6,
+    "act_pts": 15
+   },
+   "Brentford": {
+    "exp_pos": 16.6,
+    "act_pos": 8,
+    "exp_pts": 8.1,
+    "act_pts": 14
+   },
+   "Brighton": {
+    "exp_pos": 7.5,
+    "act_pos": 2,
+    "exp_pts": 16.7,
+    "act_pts": 22
+   },
+   "Chelsea": {
+    "exp_pos": 9.9,
+    "act_pos": 5,
+    "exp_pts": 14.3,
+    "act_pts": 16
+   },
+   "Coventry": {
+    "exp_pos": 16.9,
+    "act_pos": 17,
+    "exp_pts": 7.8,
+    "act_pts": 9
+   },
+   "Crystal Palace": {
+    "exp_pos": 11.4,
+    "act_pos": 20,
+    "exp_pts": 13.1,
+    "act_pts": 7
+   },
+   "Everton": {
+    "exp_pos": 14.6,
+    "act_pos": 6,
+    "exp_pts": 10.5,
+    "act_pts": 16
+   },
+   "Fulham": {
+    "exp_pos": 8.8,
+    "act_pos": 15,
+    "exp_pts": 15.5,
+    "act_pts": 10
+   },
+   "Hull": {
+    "exp_pos": 7.9,
+    "act_pos": 13,
+    "exp_pts": 16.0,
+    "act_pts": 11
+   },
+   "Ipswich": {
+    "exp_pos": 19.0,
+    "act_pos": 14,
+    "exp_pts": 4.9,
+    "act_pts": 11
+   },
+   "Leeds": {
+    "exp_pos": 12.7,
+    "act_pos": 9,
+    "exp_pts": 11.9,
+    "act_pts": 14
+   },
+   "Liverpool": {
+    "exp_pos": 7.4,
+    "act_pos": 4,
+    "exp_pts": 16.7,
+    "act_pts": 18
+   },
+   "Man City": {
+    "exp_pos": 4.3,
+    "act_pos": 3,
+    "exp_pts": 19.8,
+    "act_pts": 21
+   },
+   "Man United": {
+    "exp_pos": 6.8,
+    "act_pos": 18,
+    "exp_pts": 17.3,
+    "act_pts": 8
+   },
+   "Newcastle": {
+    "exp_pos": 11.0,
+    "act_pos": 12,
+    "exp_pts": 13.6,
+    "act_pts": 12
+   },
+   "Nott'm Forest": {
+    "exp_pos": 12.9,
+    "act_pos": 16,
+    "exp_pts": 11.7,
+    "act_pts": 9
+   },
+   "Sunderland": {
+    "exp_pos": 13.1,
+    "act_pos": 19,
+    "exp_pts": 11.7,
+    "act_pts": 8
+   },
+   "Tottenham": {
+    "exp_pos": 4.5,
+    "act_pos": 11,
+    "exp_pts": 19.8,
+    "act_pts": 12
+   }
+  }
+ }
+}
