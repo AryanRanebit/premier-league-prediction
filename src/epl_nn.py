@@ -8,6 +8,11 @@ cross-entropy loss, time-decay sample weights (same 730d half-life as DC baselin
 Features: rolling pre-match form only (strictly prior matches, cross-season carry-over).
 6+ tail: empirical P(g | g>=6) from training history, sampled at simulation time.
 Backtest: same 5 seasons, same 100-match cutoffs as epl_model.py.
+v3 backtest trains with validation-based early stopping (most recent 10% of the
+training matches by date held out, best checkpoint restored); train_net's default
+(val_frac=0.0) keeps the original fixed-250-epochs behaviour for older experiment
+scripts. The frozen 2026-27 forecast and next-9 checkpoint predate this change
+and are unchanged.
 """
 import csv, math, os, sys, json
 import numpy as np
@@ -130,15 +135,42 @@ def softmax(z):
     e = np.exp(z)
     return e / e.sum(axis=1, keepdims=True)
 
-def train_net(X, YH, YA, w, seed=0, epochs=250, bs=256, lr=5e-3, l2=1e-4):
+def _full_loss(net, X, YH, YA, w):
+    """Weighted two-head cross-entropy over the whole given set."""
+    n = len(X); wsum = w.sum() + 1e-9
+    _, _, lh, la = net.forward(X)
+    ph, pa = softmax(lh), softmax(la)
+    return float(-(w * np.log(np.clip(ph[np.arange(n), YH], 1e-9, None))).sum() / wsum
+                 -(w * np.log(np.clip(pa[np.arange(n), YA], 1e-9, None))).sum() / wsum)
+
+def train_net(X, YH, YA, w, seed=0, epochs=250, bs=256, lr=5e-3, l2=1e-4,
+              val_frac=0.0, min_epochs=30, patience=20, dates=None):
+    """Train one net. With val_frac > 0, the most recent val_frac of rows (by
+    `dates`, required then) is held out as a validation set: train on the rest,
+    measure weighted validation loss every epoch, keep the best checkpoint, and
+    stop after `patience` epochs without improvement (never before min_epochs).
+    The best checkpoint is restored before returning, so the returned net is the
+    one that generalized best, not the last one. Default val_frac=0.0 reproduces
+    the original fixed-epochs behaviour exactly."""
     net = Net(X.shape[1], seed=seed)
     params = ["W1","b1","W2","b2","Wh","bh","Wa","ba"]
+    use_val = val_frac > 0.0
+    if use_val:
+        if dates is None:
+            raise ValueError("dates required when val_frac > 0")
+        order = np.argsort(np.asarray([d.toordinal() for d in dates]), kind="stable")
+        n_val = max(1, int(round(len(X) * val_frac)))
+        idx_val = order[-n_val:]
+        idx_tr = order[:-n_val]
+        Xv, YHv, YAv, wv = X[idx_val], YH[idx_val], YA[idx_val], w[idx_val]
+        X, YH, YA, w = X[idx_tr], YH[idx_tr], YA[idx_tr], w[idx_tr]
     m = {p: np.zeros_like(getattr(net, p)) for p in params}
     v = {p: np.zeros_like(getattr(net, p)) for p in params}
     rng = np.random.default_rng(seed + 1000)
     n = len(X); t = 0
     curve = []
     wsum = w.sum()
+    best_val = float("inf"); best_ep = -1; since_best = 0; best_params = None
     for ep in range(epochs):
         perm = rng.permutation(n)
         for s in range(0, n, bs):
@@ -171,12 +203,27 @@ def train_net(X, YH, YA, w, seed=0, epochs=250, bs=256, lr=5e-3, l2=1e-4):
                 mhat = m[p] / bc1
                 vhat = v[p] / bc2
                 setattr(net, p, getattr(net, p) - lr * mhat/(np.sqrt(vhat) + 1e-8))
+        if use_val:
+            vl = _full_loss(net, Xv, YHv, YAv, wv)
+            if vl < best_val - 1e-6:
+                best_val, best_ep, since_best = vl, ep, 0
+                best_params = {p: getattr(net, p).copy() for p in params}
+            else:
+                since_best += 1
         if ep % 10 == 0 or ep == epochs-1:
-            _, _, lh, la = net.forward(X)
-            ph, pa = softmax(lh), softmax(la)
-            l = -(w * np.log(np.clip(ph[np.arange(n), YH], 1e-9, None))).sum()/wsum \
-                -(w * np.log(np.clip(pa[np.arange(n), YA], 1e-9, None))).sum()/wsum
-            curve.append((ep, round(float(l), 4)))
+            l = _full_loss(net, X, YH, YA, w)
+            if use_val:
+                curve.append((ep, round(float(l), 4), round(float(vl), 4)))
+            else:
+                curve.append((ep, round(float(l), 4)))
+        if use_val and ep + 1 >= min_epochs and since_best >= patience:
+            break
+    if use_val:
+        for p in params:
+            setattr(net, p, best_params[p])
+        net.best_epoch_ = best_ep
+        net.epochs_run_ = ep + 1
+        net.best_val_loss_ = round(best_val, 4)
     return net, curve
 
 def predict_pmf(nets, X):
@@ -282,10 +329,13 @@ def run_backtest(rich, n_sims=4000, epochs=250, n_seeds=5):
             Xf.append(fh + fa)
         Xf = np.array(Xf, dtype=object)
         Xtr_s, Xf_s, _, _ = fill_and_scale(Xtr, Xf)
-        nets, curves = [], None
+        nets, curves, best_epochs = [], None, []
+        train_dates = [m["date"] for m in train]
         for seed in range(n_seeds):
-            net, curve = train_net(Xtr_s, YHtr, YAtr, w, seed=seed, epochs=epochs)
-            nets.append(net); curves = curve
+            net, curve = train_net(Xtr_s, YHtr, YAtr, w, seed=seed, epochs=epochs,
+                                   val_frac=0.10, min_epochs=30, patience=20,
+                                   dates=train_dates)
+            nets.append(net); curves = curve; best_epochs.append(net.best_epoch_)
         pmfs = predict_pmf(nets, Xf_s)
         tk, tp = tail_dist(train)
         teams, fin_pos, fin_pts = simulate_nn(pmfs, rem, cut, n_sims, np.random.default_rng(42), tk, tp)
@@ -314,6 +364,7 @@ def run_backtest(rich, n_sims=4000, epochs=250, n_seeds=5):
                         "big6_mae": big6_mae, "all_mae": all_mae,
                         "score_nll": ll_sum / max(ll_n, 1),
                         "chelsea_exp": exp_pos.get("Chelsea"), "chelsea_actual": actual.get("Chelsea"),
+                        "best_epochs": best_epochs,
                         "loss_curve": curves})
         print(f"{s}: big6_mae={big6_mae:.2f} all_mae={all_mae:.2f} nll={ll_sum/max(ll_n,1):.3f} "
               f"CHE exp={exp_pos.get('Chelsea'):.1f} act={actual.get('Chelsea')}", flush=True)

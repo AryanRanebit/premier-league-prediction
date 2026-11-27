@@ -15,24 +15,28 @@ The model only sees what it could really have seen at the time.
 | Model | Big Six mean position error | All-team mean position error | Scoreline log loss |
 |---|---|---|---|
 | Dixon-Coles (goals only) | **2.49** | 2.55 | **3.04** |
-| Neural net (goals features) | 3.16 | 2.79 | 3.39 |
-| Neural net (rich features) | 2.75 | **2.53** | 3.63 |
+| Neural net (goals features) | 2.95 | 2.53 | 3.09 |
+| Neural net (rich features) | 2.56 | **2.42** | 3.07 |
 
 How to read this, honestly:
 
 - **Scoreline log loss** (lower = better probabilistic score predictions): the
-  Dixon-Coles model was lower in all five test seasons against both neural variants.
-  This is a prediction-loss comparison, not a calibration study.
+  Dixon-Coles model was lower than both neural variants in four of the five test
+  seasons (both neural nets edged it in 2022-23). This is a prediction-loss
+  comparison, not a calibration study.
 - **Position error**: not clearly separated - five test seasons cannot establish a
   clear advantage for any model; the gaps sit well inside season-to-season
   differences within them. The simple model edges the Big Six; the rich neural net
-  edges the all-team average by a hair.
-- The richer feature set fits the training data better (final training loss 1.64 vs
-  2.27) yet generalizes worse on held-out scoreline log loss (3.63 vs 3.39) - a
-  generalization gap. Whether the mechanism is overfitting would need a
-  learning-curve study we have not run.
+  edges the all-team average.
+- Validation curves showed the neural nets overfitting: training loss kept falling
+  while validation loss bottomed within the first ~20 epochs and then rose. Both
+  neural variants now train with early stopping on a held-out recent slice (the
+  most recent 10% of training matches by date) and restore their best checkpoint.
+  On the same five backtest seasons this cut held-out scoreline log loss from 3.63
+  to 3.07 (rich) and 3.39 to 3.09 (goals), with position errors unchanged to
+  slightly better (Big Six 2.75 to 2.56 rich; all-team 2.53 to 2.42).
 - Some clubs are simply harder to predict: across both neural variants, Tottenham's
-  average miss was 7.0 places and Chelsea's 3.5, versus 1.0 for Manchester City and
+  average miss was 6.9 places and Chelsea's 3.5, versus 1.1 for Manchester City and
   0.8 for Liverpool. Chelsea is volatile in both directions - the models miss them
   high and low.
 
@@ -71,7 +75,9 @@ attribution given, CSVs not redistributed; see `DATA.md`).
 - Neural net: 2 hidden layers (48, 24, ReLU), two 7-way softmax heads
   (goals 0-5/6+ per side), cross-entropy loss, bias-corrected Adam, 5-seed ensemble.
   Rolling last-5/last-10 features from strictly earlier dates only (no same-day
-  leakage), preprocessing fitted on the training split only.
+  leakage), preprocessing fitted on the training split only. Backtest training uses
+  validation-based early stopping (most recent 10% of training matches by date held
+  out, minimum 30 epochs, patience 20, best checkpoint restored).
 - Season simulation: fixture probabilities computed once at the cutoff and frozen;
   6+ cells expanded from the empirical training tail. Positions decided by points,
   then goal difference, then goals for; dead-level ties fall back to alphabetical
@@ -83,4 +89,5 @@ attribution given, CSVs not redistributed; see `DATA.md`).
   exponentially weighted full history (a practical pipeline comparison, not an
   architecture isolation); position-error differences are within season-to-season
   variation; forecasts are conditional on model assumptions and the 8 Nov 2026
-  snapshot.
+  snapshot. The frozen 2026-27 forecast and next-9 checkpoint were produced before
+  early stopping was added and are intentionally unchanged.

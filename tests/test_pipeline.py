@@ -68,6 +68,19 @@ check("same-day result included when frozen at cutoff (inclusive)",
       N.features_for(hist_nn, team, multi_date, "home", True, inclusive=True) !=
       N.features_for(hist2, team, multi_date, "home", True, inclusive=True))
 
+# 3c. early stopping: holds out the most recent slice, stops before max epochs,
+# restores the best checkpoint, and is reproducible under the same seed
+dates_1200 = [m["date"] for m in train][:1200]
+net_es, curve_es = N.train_net(Xs[:1200], YH[:1200], YA[:1200], w, seed=0, epochs=250,
+                               val_frac=0.2, min_epochs=10, patience=10, dates=dates_1200)
+check("early stopping stops before max epochs", net_es.epochs_run_ < 250)
+check("early-stopped curve records validation loss", len(curve_es[0]) == 3)
+net_es2, _ = N.train_net(Xs[:1200], YH[:1200], YA[:1200], w, seed=0, epochs=250,
+                         val_frac=0.2, min_epochs=10, patience=10, dates=dates_1200)
+check("early stopping reproducible under same seed",
+      net_es2.best_epoch_ == net_es.best_epoch_ and
+      net_es2.best_val_loss_ == net_es.best_val_loss_)
+
 # 4. simulation smoke + points conservation (a match awards 3 total if decisive, 2 if drawn)
 tk, tp = N.tail_dist(train)
 check("tail distribution sums to 1", abs(sum(tp) - 1) < 1e-9)
